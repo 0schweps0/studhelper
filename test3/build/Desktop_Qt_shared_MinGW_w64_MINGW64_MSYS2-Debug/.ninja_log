@@ -1,0 +1,9 @@
+# ninja log v6
+5	436	7384326003021144	test3_autogen/timestamp	5f10dfa1ef227543
+5	436	7384326003021144	test3_autogen/mocs_compilation.cpp	5f10dfa1ef227543
+5	436	7384326003021144	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/test3/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/test3_autogen/timestamp	5f10dfa1ef227543
+5	436	7384326003021144	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/test3/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/test3_autogen/mocs_compilation.cpp	5f10dfa1ef227543
+439	1730	7384326003478288	CMakeFiles/test3.dir/test3_autogen/mocs_compilation.cpp.obj	4b8d897e2302a08f
+441	1767	7384326003498300	CMakeFiles/test3.dir/main.cpp.obj	4f43781854ae6092
+443	1863	7384326003517599	CMakeFiles/test3.dir/mainwindow.cpp.obj	f481926819c6c0ae
+1864	1956	7384326017726111	test3.exe	81d1905d4ebbdf0
