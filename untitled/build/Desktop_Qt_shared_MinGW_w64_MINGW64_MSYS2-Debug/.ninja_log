@@ -1,0 +1,9 @@
+# ninja log v6
+5	425	7384337629699358	untitled_autogen/timestamp	f6af2f1490722ac5
+5	425	7384337629699358	untitled_autogen/mocs_compilation.cpp	f6af2f1490722ac5
+5	425	7384337629699358	C:/Users/EDELWEISS PC/Documents/untitled/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled_autogen/timestamp	f6af2f1490722ac5
+5	425	7384337629699358	C:/Users/EDELWEISS PC/Documents/untitled/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled_autogen/mocs_compilation.cpp	f6af2f1490722ac5
+428	1603	7384337630163415	CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj	75d0eba2667d65fc
+430	1628	7384337630183421	CMakeFiles/untitled.dir/main.cpp.obj	9c86fa51c9c779eb
+432	1677	7384337630203423	CMakeFiles/untitled.dir/mainwindow.cpp.obj	f1b1c0638d306ec9
+1677	1768	7384337642654453	untitled.exe	8a76dcf894b3b78
