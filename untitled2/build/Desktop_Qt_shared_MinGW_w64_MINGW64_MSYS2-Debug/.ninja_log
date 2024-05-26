@@ -1,0 +1,9 @@
+# ninja log v6
+19	2138	7384328726484290	untitled2_autogen/timestamp	4554e318ce244f42
+19	2138	7384328726484290	untitled2_autogen/mocs_compilation.cpp	4554e318ce244f42
+19	2138	7384328726484290	C:/Users/glebg/OneDrive/Documents/untitled2/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled2_autogen/timestamp	4554e318ce244f42
+19	2138	7384328726484290	C:/Users/glebg/OneDrive/Documents/untitled2/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled2_autogen/mocs_compilation.cpp	4554e318ce244f42
+2151	8416	7384328728514310	CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.obj	827efb557175edcb
+2157	8581	7384328728584296	CMakeFiles/untitled2.dir/main.cpp.obj	83bcc14dec31693d
+2163	9614	7384328728644389	CMakeFiles/untitled2.dir/mainwindow.cpp.obj	1dc608581f5a7c93
+9614	11922	7384328803149625	untitled2.exe	73b7813138c18c49
