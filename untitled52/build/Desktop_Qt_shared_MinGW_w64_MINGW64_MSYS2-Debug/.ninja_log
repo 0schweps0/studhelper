@@ -1,0 +1,9 @@
+# ninja log v6
+20	1765	7384346972697578	untitled52_autogen/timestamp	3940733805fe6c8c
+20	1765	7384346972697578	untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
+20	1765	7384346972697578	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	3940733805fe6c8c
+20	1765	7384346972697578	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
+1779	6454	7384346974727895	CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj	b94f79d6f8c761de
+1786	6476	7384346974797565	CMakeFiles/untitled52.dir/main.cpp.obj	b557f4311de88ca
+1792	6633	7384346974867889	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	7639b5ea099a2a22
+6634	7049	7384347023272823	untitled52.exe	df28e7eeee0e54f0
