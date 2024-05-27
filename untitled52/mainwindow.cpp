@@ -16,8 +16,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_window_data_b_clicked()
 {
-    window_data window_2;
-    window_2.setModal(true);
-    window_2.exec();
+    window_2 = new window_data(this);
 }
 
