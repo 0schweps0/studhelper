@@ -8,6 +8,8 @@ untitled52_autogen/timestamp: \
 	D:/github/studhelper/untitled52/main.cpp \
 	D:/github/studhelper/untitled52/mainwindow.cpp \
 	D:/github/studhelper/untitled52/mainwindow.h \
+	D:/github/studhelper/untitled52/window_data.cpp \
+	D:/github/studhelper/untitled52/window_data.h \
 	D:/msys64/mingw64/include/_mingw.h \
 	D:/msys64/mingw64/include/_mingw_mac.h \
 	D:/msys64/mingw64/include/_mingw_off_t.h \
@@ -337,7 +339,9 @@ untitled52_autogen/timestamp: \
 	D:/msys64/mingw64/include/qt6/QtGui/qtransform.h \
 	D:/msys64/mingw64/include/qt6/QtGui/qwindowdefs.h \
 	D:/msys64/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
+	D:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
 	D:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \
+	D:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
 	D:/msys64/mingw64/include/qt6/QtWidgets/qmainwindow.h \
 	D:/msys64/mingw64/include/qt6/QtWidgets/qsizepolicy.h \
 	D:/msys64/mingw64/include/qt6/QtWidgets/qtabwidget.h \
@@ -528,4 +532,5 @@ untitled52_autogen/timestamp: \
 	D:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake \
 	D:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake \
 	D:/github/studhelper/untitled52/mainwindow.ui \
+	D:/github/studhelper/untitled52/window_data.ui \
 	D:/msys64/mingw64/bin/cmake.exe

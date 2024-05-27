@@ -398,4 +398,7 @@ CMakeFiles/untitled52.dir/mainwindow.cpp.obj: \
  D:/msys64/mingw64/include/qt6/QtWidgets/QStatusBar \
  D:/msys64/mingw64/include/qt6/QtWidgets/qstatusbar.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/QWidget \
- D:/msys64/mingw64/include/qt6/QtWidgets/qwidget.h
+ D:/msys64/mingw64/include/qt6/QtWidgets/qwidget.h \
+ D:\github\studhelper\untitled52\window_data.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h

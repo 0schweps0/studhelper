@@ -254,6 +254,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"D:/github/studhelper/untitled52/window_data.h",
+			"MU",
+			"EWIEGA46WW/moc_window_data.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -330,7 +336,8 @@
 	"SOURCES" : 
 	[
 		[ "D:/github/studhelper/untitled52/main.cpp", "MU", null ],
-		[ "D:/github/studhelper/untitled52/mainwindow.cpp", "MU", null ]
+		[ "D:/github/studhelper/untitled52/mainwindow.cpp", "MU", null ],
+		[ "D:/github/studhelper/untitled52/window_data.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
