@@ -16,6 +16,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_window_data_b_clicked()
 {
+    hide();
     window_2 = new window_data(this);
+    window_2-> show();
 }
 

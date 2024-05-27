@@ -365,6 +365,9 @@ CMakeFiles/untitled52.dir/main.cpp.obj: \
  D:/msys64/mingw64/include/qt6/QtGui/qcursor.h \
  D:/msys64/mingw64/include/qt6/QtGui/qbitmap.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/qtabwidget.h \
+ D:\github\studhelper\untitled52\window_data.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/QApplication \
  D:/msys64/mingw64/include/qt6/QtWidgets/qapplication.h \
  D:/msys64/mingw64/include/qt6/QtCore/qcoreapplication.h \

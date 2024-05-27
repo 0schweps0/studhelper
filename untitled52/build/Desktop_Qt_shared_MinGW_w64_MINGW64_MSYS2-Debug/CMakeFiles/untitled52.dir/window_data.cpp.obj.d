@@ -380,4 +380,19 @@ CMakeFiles/untitled52.dir/window_data.cpp.obj: \
  D:/msys64/mingw64/include/qt6/QtGui/qinputmethod.h \
  D:/msys64/mingw64/include/qt6/QtCore/qlocale.h \
  D:/msys64/mingw64/include/qt6/QtGui/qguiapplication_platform.h \
- D:/msys64/mingw64/include/qt6/QtWidgets/QDialog
+ D:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QGroupBox \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qgroupbox.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qframe.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QLabel \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qlabel.h \
+ D:/msys64/mingw64/include/qt6/QtGui/qpicture.h \
+ D:/msys64/mingw64/include/qt6/QtCore/qiodevice.h \
+ D:/msys64/mingw64/include/qt6/QtGui/qtextdocument.h \
+ D:/msys64/mingw64/include/qt6/QtCore/qurl.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QLineEdit \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qlineedit.h \
+ D:/msys64/mingw64/include/qt6/QtGui/qtextcursor.h \
+ D:/msys64/mingw64/include/qt6/QtGui/qtextformat.h \
+ D:/msys64/mingw64/include/qt6/QtGui/qpen.h \
+ D:/msys64/mingw64/include/qt6/QtGui/qtextoption.h

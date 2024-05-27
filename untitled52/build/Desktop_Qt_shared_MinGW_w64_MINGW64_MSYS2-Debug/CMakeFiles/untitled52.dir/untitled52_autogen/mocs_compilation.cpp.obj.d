@@ -366,8 +366,9 @@ CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj: \
  D:/msys64/mingw64/include/qt6/QtGui/qcursor.h \
  D:/msys64/mingw64/include/qt6/QtGui/qbitmap.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/qtabwidget.h \
- D:/msys64/mingw64/include/qt6/QtCore/qtmochelpers.h \
- D:\github\studhelper\untitled52\build\Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug\untitled52_autogen\EWIEGA46WW/moc_window_data.cpp \
  D:/github/studhelper/untitled52/window_data.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
- D:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h
+ D:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
+ D:/msys64/mingw64/include/qt6/QtCore/qtmochelpers.h \
+ D:\github\studhelper\untitled52\build\Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug\untitled52_autogen\EWIEGA46WW/moc_window_data.cpp \
+ D:/github/studhelper/untitled52/window_data.h
