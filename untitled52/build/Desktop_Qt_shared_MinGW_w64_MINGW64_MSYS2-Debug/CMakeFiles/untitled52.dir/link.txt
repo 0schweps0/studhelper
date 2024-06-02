@@ -1,0 +1,3 @@
+D:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\untitled52.dir/objects.a
+D:\msys64\mingw64\bin\ar.exe qc CMakeFiles\untitled52.dir/objects.a @CMakeFiles\untitled52.dir\objects1.rsp
+D:\msys64\mingw64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\untitled52.dir/objects.a -Wl,--no-whole-archive -o untitled52.exe -Wl,--out-implib,libuntitled52.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\untitled52.dir\linkLibs.rsp

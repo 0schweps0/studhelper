@@ -27,6 +27,7 @@
      <string>close</string>
     </property>
    </widget>
+<<<<<<< HEAD
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
@@ -47,10 +48,45 @@
       <y>230</y>
       <width>71</width>
       <height>41</height>
+=======
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>40</y>
+      <width>81</width>
+      <height>20</height>
+>>>>>>> c50f05be6d9c9f070c88e8f96ee95aaefee7db06
      </rect>
     </property>
     <property name="text">
-     <string>Hi</string>
+     <string> main page</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Studhelper</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="window_data_b">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>100</y>
+      <width>161</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Общая информация</string>
     </property>
    </widget>
   </widget>
@@ -59,8 +95,13 @@
     <rect>
      <x>0</x>
      <y>0</y>
+<<<<<<< HEAD
      <width>1398</width>
      <height>21</height>
+=======
+     <width>800</width>
+     <height>25</height>
+>>>>>>> c50f05be6d9c9f070c88e8f96ee95aaefee7db06
     </rect>
    </property>
   </widget>

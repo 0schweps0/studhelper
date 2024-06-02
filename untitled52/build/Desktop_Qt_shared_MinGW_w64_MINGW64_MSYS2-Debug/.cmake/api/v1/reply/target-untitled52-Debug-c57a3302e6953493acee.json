@@ -27,21 +27,21 @@
 		],
 		"files" : 
 		[
-			"C:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
 			"CMakeLists.txt",
-			"C:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6/Qt6Config.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"C:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+			"D:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6/Qt6Config.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"D:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 62,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 45,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
@@ -330,32 +330,32 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include"
+					"path" : "D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include"
 				},
 				{
 					"backtrace" : 14,
 					"isSystem" : true,
-					"path" : "C:/msys64/mingw64/include/qt6/QtCore"
+					"path" : "D:/msys64/mingw64/include/qt6/QtCore"
 				},
 				{
 					"backtrace" : 14,
 					"isSystem" : true,
-					"path" : "C:/msys64/mingw64/include/qt6"
+					"path" : "D:/msys64/mingw64/include/qt6"
 				},
 				{
 					"backtrace" : 14,
 					"isSystem" : true,
-					"path" : "C:/msys64/mingw64/share/qt6/mkspecs/win32-g++"
+					"path" : "D:/msys64/mingw64/share/qt6/mkspecs/win32-g++"
 				},
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
-					"path" : "C:/msys64/mingw64/include/qt6/QtWidgets"
+					"path" : "D:/msys64/mingw64/include/qt6/QtWidgets"
 				},
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
-					"path" : "C:/msys64/mingw64/include/qt6/QtGui"
+					"path" : "D:/msys64/mingw64/include/qt6/QtGui"
 				}
 			],
 			"language" : "CXX",
@@ -372,18 +372,19 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "untitled52_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "untitled52_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "untitled52_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "untitled52::@6890427a1f51a3e7e1df",
@@ -415,17 +416,17 @@
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "C:\\msys64\\mingw64\\lib\\libQt6Widgets.dll.a",
+				"fragment" : "D:\\msys64\\mingw64\\lib\\libQt6Widgets.dll.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 13,
-				"fragment" : "C:\\msys64\\mingw64\\lib\\libQt6Gui.dll.a",
+				"fragment" : "D:\\msys64\\mingw64\\lib\\libQt6Gui.dll.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 14,
-				"fragment" : "C:\\msys64\\mingw64\\lib\\libQt6Core.dll.a",
+				"fragment" : "D:\\msys64\\mingw64\\lib\\libQt6Core.dll.a",
 				"role" : "libraries"
 			},
 			{
@@ -445,7 +446,7 @@
 			},
 			{
 				"backtrace" : 32,
-				"fragment" : "C:\\msys64\\mingw64\\lib\\libQt6EntryPoint.a",
+				"fragment" : "D:\\msys64\\mingw64\\lib\\libQt6EntryPoint.a",
 				"role" : "libraries"
 			},
 			{
@@ -495,7 +496,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6
 			]
 		},
 		{
@@ -503,7 +505,9 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				5,
+				8,
+				9
 			]
 		},
 		{
@@ -511,14 +515,15 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				7,
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				11
 			]
 		}
 	],
@@ -554,9 +559,31 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "window_data.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "window_data.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "window_data.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include/ui_mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include/ui_window_data.h",
 			"sourceGroupIndex" : 1
 		},
 		{
