@@ -1,9 +1,15 @@
 # ninja log v6
 5	434	7384342304088691	Test123_autogen/timestamp	d8d1f2bcd4984d1f
 5	434	7384342304088691	Test123_autogen/mocs_compilation.cpp	d8d1f2bcd4984d1f
-5	434	7384342304088691	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/Test123/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/Test123_autogen/timestamp	d8d1f2bcd4984d1f
-5	434	7384342304088691	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/Test123/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/Test123_autogen/mocs_compilation.cpp	d8d1f2bcd4984d1f
 439	1605	7384342304577364	CMakeFiles/Test123.dir/main.cpp.obj	fc67bef692696c97
 436	1605	7384342304557352	CMakeFiles/Test123.dir/Test123_autogen/mocs_compilation.cpp.obj	2d5d4caf18f972d9
 440	1689	7384342304597363	CMakeFiles/Test123.dir/mainwindow.cpp.obj	f08b0eb39765f683
 1689	1786	7384342317093193	Test123.exe	2cfa15899b584e2d
+53	2082	7384365627773718	Test123_autogen/timestamp	725ce6cab565d762
+53	2082	7384365627773718	Test123_autogen/mocs_compilation.cpp	725ce6cab565d762
+53	2082	7384365627773718	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/Test123/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/Test123_autogen/timestamp	725ce6cab565d762
+53	2082	7384365627773718	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/Test123/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/Test123_autogen/mocs_compilation.cpp	725ce6cab565d762
+2087	7012	7384365630693715	CMakeFiles/Test123.dir/Test123_autogen/mocs_compilation.cpp.obj	6b5b5f0a817b8862
+2096	7084	7384365630783246	CMakeFiles/Test123.dir/main.cpp.obj	e685fd0b0d6319ed
+2108	7378	7384365630903719	CMakeFiles/Test123.dir/mainwindow.cpp.obj	e7134eaffa8cfd69
+7378	7745	7384365683609332	Test123.exe	d41f4b778bdf42b
