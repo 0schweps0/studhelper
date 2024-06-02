@@ -416,4 +416,5 @@ CMakeFiles/untitled52.dir/mainwindow.cpp.obj: \
  D:/msys64/mingw64/include/qt6/QtWidgets/QMessageBox \
  D:/msys64/mingw64/include/qt6/QtWidgets/qmessagebox.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
- D:/msys64/mingw64/include/qt6/QtWidgets/qdialogbuttonbox.h
+ D:/msys64/mingw64/include/qt6/QtWidgets/qdialogbuttonbox.h \
+ D:\github\studhelper\untitled52\window2_data.h
