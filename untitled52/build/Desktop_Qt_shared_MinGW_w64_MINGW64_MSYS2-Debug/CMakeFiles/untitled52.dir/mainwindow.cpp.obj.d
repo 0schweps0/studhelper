@@ -384,9 +384,11 @@ CMakeFiles/untitled52.dir/mainwindow.cpp.obj: \
  D:/msys64/mingw64/include/qt6/QtGui/qinputmethod.h \
  D:/msys64/mingw64/include/qt6/QtCore/qlocale.h \
  D:/msys64/mingw64/include/qt6/QtGui/qguiapplication_platform.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QGroupBox \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qgroupbox.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qframe.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/QLabel \
  D:/msys64/mingw64/include/qt6/QtWidgets/qlabel.h \
- D:/msys64/mingw64/include/qt6/QtWidgets/qframe.h \
  D:/msys64/mingw64/include/qt6/QtGui/qpicture.h \
  D:/msys64/mingw64/include/qt6/QtCore/qiodevice.h \
  D:/msys64/mingw64/include/qt6/QtGui/qtextdocument.h \
@@ -400,5 +402,11 @@ CMakeFiles/untitled52.dir/mainwindow.cpp.obj: \
  D:/msys64/mingw64/include/qt6/QtWidgets/qabstractbutton.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/QStatusBar \
  D:/msys64/mingw64/include/qt6/QtWidgets/qstatusbar.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QVBoxLayout \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qboxlayout.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qlayout.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qlayoutitem.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qboxlayout.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qgridlayout.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/QWidget \
  D:/msys64/mingw64/include/qt6/QtWidgets/qwidget.h

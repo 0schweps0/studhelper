@@ -53,18 +53,41 @@
      <string>Studhelper</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="window_data_b">
+   <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>100</y>
-      <width>161</width>
-      <height>29</height>
+      <x>270</x>
+      <y>115</y>
+      <width>261</width>
+      <height>231</height>
      </rect>
     </property>
-    <property name="text">
-     <string>Общая информация</string>
+    <property name="title">
+     <string/>
     </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPushButton" name="window_data_b">
+       <property name="text">
+        <string>Общая информация</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
