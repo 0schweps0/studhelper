@@ -395,4 +395,10 @@ CMakeFiles/untitled52.dir/window_data.cpp.obj: \
  D:/msys64/mingw64/include/qt6/QtGui/qtextcursor.h \
  D:/msys64/mingw64/include/qt6/QtGui/qtextformat.h \
  D:/msys64/mingw64/include/qt6/QtGui/qpen.h \
- D:/msys64/mingw64/include/qt6/QtGui/qtextoption.h
+ D:/msys64/mingw64/include/qt6/QtGui/qtextoption.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QVBoxLayout \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qboxlayout.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qlayout.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qlayoutitem.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qboxlayout.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qgridlayout.h

@@ -12,3 +12,9 @@ window_data::~window_data()
 {
     delete ui;
 }
+
+void window_data::on_pushButton_clicked()
+{
+
+}
+
