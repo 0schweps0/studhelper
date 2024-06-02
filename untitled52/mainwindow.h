@@ -21,6 +21,8 @@ public:
 private slots:
     void on_window_data_b_clicked();
 
+    void on_pushButton_2_clicked();
+
 private:
     Ui::MainWindow *ui;
     window_data *window_2;

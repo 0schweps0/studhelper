@@ -406,8 +406,14 @@ CMakeFiles/untitled52.dir/mainwindow.cpp.obj: \
  D:/msys64/mingw64/include/qt6/QtWidgets/QPushButton \
  D:/msys64/mingw64/include/qt6/QtWidgets/qpushbutton.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/qabstractbutton.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QSpacerItem \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qlayoutitem.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/QStatusBar \
  D:/msys64/mingw64/include/qt6/QtWidgets/qstatusbar.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/QVBoxLayout \
  D:/msys64/mingw64/include/qt6/QtWidgets/QWidget \
- D:/msys64/mingw64/include/qt6/QtWidgets/qwidget.h
+ D:/msys64/mingw64/include/qt6/QtWidgets/qwidget.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QMessageBox \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qmessagebox.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qdialogbuttonbox.h

@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "window_data.h"
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -19,5 +20,11 @@ void MainWindow::on_window_data_b_clicked()
     hide();
     window_2 = new window_data(this);
     window_2-> show();
+}
+
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    QMessageBox::aboutQt(this, "");
 }
 
