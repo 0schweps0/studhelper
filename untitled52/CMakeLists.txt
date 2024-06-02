@@ -24,7 +24,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         window_data.h window_data.cpp window_data.ui
-        window2_data.h window2_data.cpp
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET untitled52 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
