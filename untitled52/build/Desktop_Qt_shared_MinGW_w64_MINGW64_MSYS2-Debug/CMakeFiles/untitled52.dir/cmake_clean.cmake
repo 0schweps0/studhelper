@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj"
+  "CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj.d"
   "CMakeFiles/untitled52.dir/main.cpp.obj"
   "CMakeFiles/untitled52.dir/main.cpp.obj.d"
   "CMakeFiles/untitled52.dir/mainwindow.cpp.obj"

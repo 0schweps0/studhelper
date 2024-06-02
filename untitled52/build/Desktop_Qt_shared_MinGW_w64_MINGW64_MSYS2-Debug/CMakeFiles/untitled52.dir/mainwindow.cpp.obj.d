@@ -368,6 +368,7 @@ CMakeFiles/untitled52.dir/mainwindow.cpp.obj: \
  D:\github\studhelper\untitled52\window_data.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
  D:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
+ D:\github\studhelper\untitled52\general_statistic_w.h \
  D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include/ui_mainwindow.h \
  D:/msys64/mingw64/include/qt6/QtCore/QVariant \
  D:/msys64/mingw64/include/qt6/QtCore/qvariant.h \

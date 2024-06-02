@@ -5,6 +5,8 @@ untitled52_autogen/timestamp: \
 	D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/moc_predefs.h \
+	D:/github/studhelper/untitled52/general_statistic_w.cpp \
+	D:/github/studhelper/untitled52/general_statistic_w.h \
 	D:/github/studhelper/untitled52/main.cpp \
 	D:/github/studhelper/untitled52/mainwindow.cpp \
 	D:/github/studhelper/untitled52/mainwindow.h \
@@ -531,6 +533,7 @@ untitled52_autogen/timestamp: \
 	D:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake \
 	D:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake \
 	D:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake \
+	D:/github/studhelper/untitled52/general_statistic_w.ui \
 	D:/github/studhelper/untitled52/mainwindow.ui \
 	D:/github/studhelper/untitled52/window_data.ui \
 	D:/msys64/mingw64/bin/cmake.exe

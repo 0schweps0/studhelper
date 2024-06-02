@@ -1,8 +1,8 @@
-CMakeFiles/untitled52.dir/main.cpp.obj: \
- D:\github\studhelper\untitled52\main.cpp \
- D:\github\studhelper\untitled52\mainwindow.h \
- D:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \
- D:/msys64/mingw64/include/qt6/QtWidgets/qmainwindow.h \
+CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj: \
+ D:\github\studhelper\untitled52\general_statistic_w.cpp \
+ D:\github\studhelper\untitled52\general_statistic_w.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
+ D:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \
  D:/msys64/mingw64/include/qt6/QtGui/qtguiglobal.h \
  D:/msys64/mingw64/include/qt6/QtCore/qglobal.h \
@@ -364,11 +364,9 @@ CMakeFiles/untitled52.dir/main.cpp.obj: \
  D:/msys64/mingw64/include/qt6/QtWidgets/qsizepolicy.h \
  D:/msys64/mingw64/include/qt6/QtGui/qcursor.h \
  D:/msys64/mingw64/include/qt6/QtGui/qbitmap.h \
- D:/msys64/mingw64/include/qt6/QtWidgets/qtabwidget.h \
- D:\github\studhelper\untitled52\window_data.h \
- D:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
- D:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
- D:\github\studhelper\untitled52\general_statistic_w.h \
+ D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include/ui_general_statistic_w.h \
+ D:/msys64/mingw64/include/qt6/QtCore/QVariant \
+ D:/msys64/mingw64/include/qt6/QtCore/qvariant.h \
  D:/msys64/mingw64/include/qt6/QtWidgets/QApplication \
  D:/msys64/mingw64/include/qt6/QtWidgets/qapplication.h \
  D:/msys64/mingw64/include/qt6/QtCore/qcoreapplication.h \
@@ -381,4 +379,5 @@ CMakeFiles/untitled52.dir/main.cpp.obj: \
  D:/msys64/mingw64/include/qt6/QtGui/qguiapplication.h \
  D:/msys64/mingw64/include/qt6/QtGui/qinputmethod.h \
  D:/msys64/mingw64/include/qt6/QtCore/qlocale.h \
- D:/msys64/mingw64/include/qt6/QtGui/qguiapplication_platform.h
+ D:/msys64/mingw64/include/qt6/QtGui/qguiapplication_platform.h \
+ D:/msys64/mingw64/include/qt6/QtWidgets/QDialog

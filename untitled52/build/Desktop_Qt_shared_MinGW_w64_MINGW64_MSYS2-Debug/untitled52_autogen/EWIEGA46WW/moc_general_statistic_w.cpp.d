@@ -1,7 +1,5 @@
-D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/github/studhelper/untitled52/mainwindow.h \
+D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/EWIEGA46WW/moc_general_statistic_w.cpp: D:/github/studhelper/untitled52/general_statistic_w.h \
   D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/moc_predefs.h \
-  D:/github/studhelper/untitled52/general_statistic_w.h \
-  D:/github/studhelper/untitled52/window_data.h \
   D:/msys64/mingw64/include/_mingw.h \
   D:/msys64/mingw64/include/_mingw_mac.h \
   D:/msys64/mingw64/include/_mingw_off_t.h \
@@ -332,11 +330,8 @@ D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-
   D:/msys64/mingw64/include/qt6/QtGui/qwindowdefs.h \
   D:/msys64/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
   D:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
-  D:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \
   D:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
-  D:/msys64/mingw64/include/qt6/QtWidgets/qmainwindow.h \
   D:/msys64/mingw64/include/qt6/QtWidgets/qsizepolicy.h \
-  D:/msys64/mingw64/include/qt6/QtWidgets/qtabwidget.h \
   D:/msys64/mingw64/include/qt6/QtWidgets/qtwidgets-config.h \
   D:/msys64/mingw64/include/qt6/QtWidgets/qtwidgetsexports.h \
   D:/msys64/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \

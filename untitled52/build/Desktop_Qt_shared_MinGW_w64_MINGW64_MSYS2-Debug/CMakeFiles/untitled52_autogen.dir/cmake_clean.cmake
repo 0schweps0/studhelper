@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled52_autogen"
+  "untitled52_autogen/include/ui_general_statistic_w.h"
   "untitled52_autogen/include/ui_mainwindow.h"
   "untitled52_autogen/include/ui_window_data.h"
   "untitled52_autogen/mocs_compilation.cpp"

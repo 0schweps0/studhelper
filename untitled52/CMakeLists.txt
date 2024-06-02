@@ -24,6 +24,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         window_data.h window_data.cpp window_data.ui
+        general_statistic_w.h general_statistic_w.cpp general_statistic_w.ui
 
     )
 # Define target properties for Android with Qt 6 as:
