@@ -15,9 +15,14 @@ public:
     explicit general_statistic_w(QWidget *parent = nullptr);
     ~general_statistic_w();
 
+signals:
+    void firstWindow();
+
 private slots:
     void updateData();
     void loadDataFromFile(const QString &filePath, int startLine, int endLine, int column2Index, int lastColumnIndex);
+
+    void on_pushButton_clicked();
 
 private:
     Ui::general_statistic_w *ui;

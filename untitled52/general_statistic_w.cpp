@@ -111,3 +111,10 @@ void general_statistic_w::loadDataFromFile(const QString &filePath, int startLin
 
     file.close();
 }
+
+void general_statistic_w::on_pushButton_clicked()
+{
+    this->close();
+    emit firstWindow();
+}
+

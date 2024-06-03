@@ -9,6 +9,10 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    window_2 = new window_data();
+    window_3 = new general_statistic_w();
+    connect(window_2, &window_data::firstWindow, this, &MainWindow::show);
+    connect(window_3, &general_statistic_w::firstWindow, this, &MainWindow::show);
     // QPixmap pix(":/img/hse_logo.jpg");
     // int w = ui ->image->width();
     // int h = ui ->image->height();
@@ -23,9 +27,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_window_data_b_clicked()
 {
-    // hide();
-    window_2 = new window_data(this);
-    window_2-> show();
+    window_2->show();
+    this->close();
 }
 
 
@@ -37,8 +40,8 @@ void MainWindow::on_pushButton_2_clicked()
 
 void MainWindow::on_pushButton_3_clicked()
 {
-    // hide();
-    window_3 = new general_statistic_w(this);
+
     window_3-> show();
+    this->close();
 }
 

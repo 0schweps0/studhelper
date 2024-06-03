@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QGroupBox>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
@@ -24,6 +25,10 @@ QT_BEGIN_NAMESPACE
 class Ui_window_data
 {
 public:
+    QVBoxLayout *verticalLayout_2;
+    QGroupBox *groupBox;
+    QHBoxLayout *horizontalLayout;
+    QSpacerItem *horizontalSpacer_2;
     QGroupBox *groupBox_2;
     QVBoxLayout *verticalLayout;
     QLabel *label_4;
@@ -34,16 +39,30 @@ public:
     QLineEdit *lineEdit_6;
     QSpacerItem *verticalSpacer;
     QPushButton *pushButton;
+    QSpacerItem *horizontalSpacer;
+    QSpacerItem *verticalSpacer_2;
+    QPushButton *pushButton_2;
 
     void setupUi(QDialog *window_data)
     {
         if (window_data->objectName().isEmpty())
             window_data->setObjectName("window_data");
         window_data->resize(896, 778);
-        window_data->setStyleSheet(QString::fromUtf8("border-bottom-color: rgb(255, 255, 255);"));
-        groupBox_2 = new QGroupBox(window_data);
+        window_data->setStyleSheet(QString::fromUtf8("background-color: rgb(63, 63, 63);\n"
+"background-image: url(:/img/hse.png);\n"
+"color: rgb(255, 255, 255);"));
+        verticalLayout_2 = new QVBoxLayout(window_data);
+        verticalLayout_2->setObjectName("verticalLayout_2");
+        groupBox = new QGroupBox(window_data);
+        groupBox->setObjectName("groupBox");
+        horizontalLayout = new QHBoxLayout(groupBox);
+        horizontalLayout->setObjectName("horizontalLayout");
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_2);
+
+        groupBox_2 = new QGroupBox(groupBox);
         groupBox_2->setObjectName("groupBox_2");
-        groupBox_2->setGeometry(QRect(20, 10, 281, 241));
         verticalLayout = new QVBoxLayout(groupBox_2);
         verticalLayout->setObjectName("verticalLayout");
         label_4 = new QLabel(groupBox_2);
@@ -86,6 +105,25 @@ public:
         verticalLayout->addWidget(pushButton);
 
 
+        horizontalLayout->addWidget(groupBox_2);
+
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer);
+
+
+        verticalLayout_2->addWidget(groupBox);
+
+        verticalSpacer_2 = new QSpacerItem(20, 359, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+
+        verticalLayout_2->addItem(verticalSpacer_2);
+
+        pushButton_2 = new QPushButton(window_data);
+        pushButton_2->setObjectName("pushButton_2");
+
+        verticalLayout_2->addWidget(pushButton_2);
+
+
         retranslateUi(window_data);
 
         QMetaObject::connectSlotsByName(window_data);
@@ -94,11 +132,13 @@ public:
     void retranslateUi(QDialog *window_data)
     {
         window_data->setWindowTitle(QCoreApplication::translate("window_data", "Dialog", nullptr));
+        groupBox->setTitle(QString());
         groupBox_2->setTitle(QCoreApplication::translate("window_data", "Input data for looking your statistic", nullptr));
         label_4->setText(QCoreApplication::translate("window_data", "Name", nullptr));
         label_5->setText(QCoreApplication::translate("window_data", "Second name", nullptr));
         label_6->setText(QCoreApplication::translate("window_data", "Group", nullptr));
         pushButton->setText(QCoreApplication::translate("window_data", "Go", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("window_data", "Close", nullptr));
     } // retranslateUi
 
 };

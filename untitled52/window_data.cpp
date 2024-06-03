@@ -18,3 +18,10 @@ void window_data::on_pushButton_clicked()
 
 }
 
+
+void window_data::on_pushButton_2_clicked()
+{
+    this->close();
+    emit firstWindow();
+}
+
