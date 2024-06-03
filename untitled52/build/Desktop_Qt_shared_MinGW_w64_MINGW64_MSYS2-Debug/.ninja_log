@@ -1,6 +1,4 @@
 # ninja log v6
-19	118	7391185936306894	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
-19	118	7391185936306894	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
 122	1974	7391185937339183	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
 121	1484	7391185937319178	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
 1974	2240	7391185955853104	untitled52.exe	1d5e482f011fff56
@@ -9,3 +7,21 @@
 1238	2641	7391182014986755	CMakeFiles/untitled52.dir/main.cpp.obj	88d7c543970bc46b
 19	118	7391185936306894	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
 19	118	7391185936306894	untitled52_autogen/timestamp	c7fd59a7b2694ca2
+46	3607	7391194492438728	untitled52_autogen/timestamp	3940733805fe6c8c
+46	3607	7391194492438728	untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
+46	3607	7391194492438728	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	3940733805fe6c8c
+46	3607	7391194492438728	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
+3618	9975	7391194494228732	CMakeFiles/untitled52.dir/main.cpp.obj	b557f4311de88ca
+3629	10370	7391194494338869	CMakeFiles/untitled52.dir/window_data.cpp.obj	e40185b1c8129ed0
+3611	10448	7391194494158708	CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj	b94f79d6f8c761de
+3623	10761	7391194494278734	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	7639b5ea099a2a22
+3635	12092	7391194494398726	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	4df473970c725f8b
+12092	12718	7391194578968712	untitled52.exe	34af9ec9e48b4c98
+63	479	7391195451350931	untitled52_autogen/timestamp	3940733805fe6c8c
+63	479	7391195451350931	untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
+63	479	7391195451350931	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	3940733805fe6c8c
+63	479	7391195451350931	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
+486	5380	7391195455580641	CMakeFiles/untitled52.dir/window_data.cpp.obj	e40185b1c8129ed0
+480	5822	7391195455510972	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	7639b5ea099a2a22
+493	7011	7391195455640984	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	4df473970c725f8b
+7011	7473	7391195520830662	untitled52.exe	34af9ec9e48b4c98
