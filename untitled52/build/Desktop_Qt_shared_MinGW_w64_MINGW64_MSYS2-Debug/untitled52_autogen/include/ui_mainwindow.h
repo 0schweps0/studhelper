@@ -62,8 +62,10 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(1120, 760);
+        MainWindow->resize(1079, 583);
+        MainWindow->setMinimumSize(QSize(1000, 400));
         MainWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(63, 63, 63);\n"
+"background-image: url(:/img/hse.png);\n"
 "color: rgb(255, 255, 255);"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
@@ -164,7 +166,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 1120, 21));
+        menubar->setGeometry(QRect(0, 0, 1079, 21));
         menu_ain_page = new QMenu(menubar);
         menu_ain_page->setObjectName("menu_ain_page");
         MainWindow->setMenuBar(menubar);

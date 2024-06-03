@@ -13,7 +13,9 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QGroupBox>
 #include <QtWidgets/QTextBrowser>
+#include <QtWidgets/QVBoxLayout>
 
 QT_BEGIN_NAMESPACE
 
@@ -21,6 +23,8 @@ class Ui_general_statistic_w
 {
 public:
     QTextBrowser *textBrowser;
+    QGroupBox *groupBox;
+    QVBoxLayout *verticalLayout;
     QComboBox *comboBox;
 
     void setupUi(QDialog *general_statistic_w)
@@ -31,9 +35,16 @@ public:
         textBrowser = new QTextBrowser(general_statistic_w);
         textBrowser->setObjectName("textBrowser");
         textBrowser->setGeometry(QRect(30, 170, 1141, 521));
-        comboBox = new QComboBox(general_statistic_w);
+        groupBox = new QGroupBox(general_statistic_w);
+        groupBox->setObjectName("groupBox");
+        groupBox->setGeometry(QRect(30, 60, 96, 51));
+        verticalLayout = new QVBoxLayout(groupBox);
+        verticalLayout->setObjectName("verticalLayout");
+        comboBox = new QComboBox(groupBox);
         comboBox->setObjectName("comboBox");
-        comboBox->setGeometry(QRect(30, 20, 471, 51));
+
+        verticalLayout->addWidget(comboBox);
+
 
         retranslateUi(general_statistic_w);
 
@@ -43,6 +54,7 @@ public:
     void retranslateUi(QDialog *general_statistic_w)
     {
         general_statistic_w->setWindowTitle(QCoreApplication::translate("general_statistic_w", "Dialog", nullptr));
+        groupBox->setTitle(QString());
     } // retranslateUi
 
 };
