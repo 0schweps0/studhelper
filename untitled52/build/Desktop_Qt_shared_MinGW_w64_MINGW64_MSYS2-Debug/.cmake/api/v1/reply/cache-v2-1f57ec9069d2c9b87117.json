@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/addr2line.exe"
+			"value" : "D:/msys64/mingw64/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/ar.exe"
+			"value" : "D:/msys64/mingw64/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug"
+			"value" : "d:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -106,6 +106,22 @@
 			"value" : "1"
 		},
 		{
+			"name" : "CMAKE_COLOR_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : ""
+		},
+		{
 			"name" : "CMAKE_COMMAND",
 			"properties" : 
 			[
@@ -115,7 +131,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/mingw64/bin/cmake.exe"
+			"value" : "D:/msys64/mingw64/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -127,7 +143,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/mingw64/bin/cpack.exe"
+			"value" : "D:/msys64/mingw64/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -139,7 +155,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/mingw64/bin/ctest.exe"
+			"value" : "D:/msys64/mingw64/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -151,11 +167,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
 			"type" : "STRING",
-			"value" : "C:/msys64/mingw64/bin/g++.exe"
+			"value" : "D:/msys64/mingw64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -171,7 +187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/gcc-ar.exe"
+			"value" : "D:/msys64/mingw64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -187,7 +203,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/gcc-ranlib.exe"
+			"value" : "D:/msys64/mingw64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -307,7 +323,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/gcc.exe"
+			"value" : "D:/msys64/mingw64/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_OUTPUT_EXTENSION",
@@ -335,7 +351,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/dlltool.exe"
+			"value" : "D:/msys64/mingw64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -430,22 +446,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable/Disable output of compile commands during generation."
-				}
-			],
-			"type" : "BOOL",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
 			"properties" : 
 			[
@@ -455,7 +455,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -467,7 +467,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Ninja"
+			"value" : "MinGW Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52"
+			"value" : "D:/github/studhelper/untitled52"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -823,7 +823,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/ld.exe"
+			"value" : "D:/msys64/mingw64/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -835,11 +835,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Program used to build from build.ninja files."
+					"value" : "Path to a program."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/ninja.exe"
+			"value" : "D:/msys64/mingw64/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -935,7 +935,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/nm.exe"
+			"value" : "D:/msys64/mingw64/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -963,7 +963,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/objcopy.exe"
+			"value" : "D:/msys64/mingw64/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -979,7 +979,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/objdump.exe"
+			"value" : "D:/msys64/mingw64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake"
+			"value" : "D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/ranlib.exe"
+			"value" : "D:/msys64/mingw64/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -1143,7 +1143,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/windres.exe"
+			"value" : "D:/msys64/mingw64/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/readelf.exe"
+			"value" : "D:/msys64/mingw64/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/mingw64/share/cmake"
+			"value" : "D:/msys64/mingw64/share/cmake"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1471,7 +1471,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/strip.exe"
+			"value" : "D:/msys64/mingw64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1539,7 +1539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/msys64/mingw64/include][v()]"
+			"value" : "[D:/msys64/mingw64/include][v()]"
 		},
 		{
 			"name" : "HAVE_STDATOMIC",
@@ -1599,7 +1599,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/Qt6"
+			"value" : "D:/msys64/mingw64/lib/cmake/Qt6"
 		},
 		{
 			"name" : "QT_FEATURE_abstractbutton",
@@ -5943,7 +5943,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/qmake.exe"
+			"value" : "D:/msys64/mingw64/bin/qmake.exe"
 		},
 		{
 			"name" : "Qt6CoreTools_DIR",
@@ -5955,7 +5955,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/Qt6CoreTools"
+			"value" : "D:/msys64/mingw64/lib/cmake/Qt6CoreTools"
 		},
 		{
 			"name" : "Qt6Core_DIR",
@@ -5967,7 +5967,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/Qt6Core"
+			"value" : "D:/msys64/mingw64/lib/cmake/Qt6Core"
 		},
 		{
 			"name" : "Qt6EntryPointPrivate_DIR",
@@ -5979,7 +5979,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate"
+			"value" : "D:/msys64/mingw64/lib/cmake/Qt6EntryPointPrivate"
 		},
 		{
 			"name" : "Qt6GuiTools_DIR",
@@ -5991,7 +5991,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/Qt6GuiTools"
+			"value" : "D:/msys64/mingw64/lib/cmake/Qt6GuiTools"
 		},
 		{
 			"name" : "Qt6Gui_DIR",
@@ -6003,7 +6003,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/Qt6Gui"
+			"value" : "D:/msys64/mingw64/lib/cmake/Qt6Gui"
 		},
 		{
 			"name" : "Qt6WidgetsTools_DIR",
@@ -6015,7 +6015,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/Qt6WidgetsTools"
+			"value" : "D:/msys64/mingw64/lib/cmake/Qt6WidgetsTools"
 		},
 		{
 			"name" : "Qt6Widgets_DIR",
@@ -6027,7 +6027,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/Qt6Widgets"
+			"value" : "D:/msys64/mingw64/lib/cmake/Qt6Widgets"
 		},
 		{
 			"name" : "Qt6_DIR",
@@ -6039,7 +6039,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/Qt6"
+			"value" : "D:/msys64/mingw64/lib/cmake/Qt6"
 		},
 		{
 			"name" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE",
@@ -6087,7 +6087,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/include"
+			"value" : "D:/msys64/mingw64/include"
 		},
 		{
 			"name" : "Vulkan_LIBRARY",
@@ -6103,7 +6103,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/lib/libvulkan-1.dll.a"
+			"value" : "D:/msys64/mingw64/lib/libvulkan-1.dll.a"
 		},
 		{
 			"name" : "WINDEPLOYQT_EXECUTABLE",
@@ -6115,7 +6115,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/windeployqt-qt6.exe"
+			"value" : "D:/msys64/mingw64/bin/windeployqt-qt6.exe"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -6151,7 +6151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug"
+			"value" : "D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug"
 		},
 		{
 			"name" : "untitled52_IS_TOP_LEVEL",
@@ -6175,7 +6175,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52"
+			"value" : "D:/github/studhelper/untitled52"
 		}
 	],
 	"kind" : "cache",

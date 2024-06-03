@@ -13,13 +13,18 @@ general_statistic_w::general_statistic_w(QWidget *parent)
     ui->setupUi(this);
 
     QFont font = ui->textBrowser->font();
-    font.setPointSize(12); // Задайте нужный размер шрифта для текстового браузера
+    font.setPointSize(12); // Задайте нужный размер шрифта
     ui->textBrowser->setFont(font);
 
     // Add paths to CSV files in ComboBox
+<<<<<<< HEAD
     ui->comboBox->addItem("English", "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/cvsinfo/233-2 - Grade.csv");
     ui->comboBox->addItem("LAaG", "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/cvsinfo/LAaG_g233 - Main_Grades.csv");
     ui->comboBox->addItem("C++", "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/cvsinfo/С++ 2024 grades - All.csv");
+=======
+    ui->comboBox->addItem("233-2 - Grade.csv", "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/cvsinfo/233-2 - Grade.csv");
+    ui->comboBox->addItem("LAaG_g233 - Main_Grades.csv", "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/cvsinfo/LAaG_g233 - Main_Grades.csv");
+>>>>>>> 54dfd1a3310fbb9139c3d9b805dd20a2ed761130
 
     // Connect comboBox signal to the slot
     connect(ui->comboBox, SIGNAL(currentIndexChanged(int)), this, SLOT(updateData()));
@@ -83,6 +88,7 @@ void general_statistic_w::loadDataFromFile(const QString &filePath, int startLin
     QTextStream in(&file);
     int lineCount = 0;
     QString html = "<html><body><table border='1' cellspacing='0' cellpadding='4' style='border-collapse: collapse;'>";
+<<<<<<< HEAD
 
     while (!in.atEnd()) {
         QString line = in.readLine();
@@ -94,6 +100,16 @@ void general_statistic_w::loadDataFromFile(const QString &filePath, int startLin
             if (fields.size() >= qMax(column2Index, lastColumnIndex) + 1) {
                 QString column2 = fields.at(column2Index);
                 QString lastColumn = fields.at(lastColumnIndex >= 0 ? lastColumnIndex : fields.size() + lastColumnIndex);
+=======
+    while (!in.atEnd()) {
+        QString line = in.readLine();
+        lineCount++;
+        if (lineCount >= 17 && lineCount <= 25) {
+            QStringList fields = line.split(",");
+            if (fields.size() >= 2) {
+                QString column2 = fields.at(1); // Второй столбец
+                QString lastColumn = fields.last(); // Последний столбец
+>>>>>>> 54dfd1a3310fbb9139c3d9b805dd20a2ed761130
 
                 // Добавляем данные в HTML таблицу
                 html += "<tr><td style='padding: 5px; text-align: left;'>" + column2 + "</td><td style='padding: 5px; text-align: left;'>" + lastColumn + "</td></tr>";
