@@ -56,8 +56,8 @@ void general_statistic_w::updateData()
         column2Index = 1; // Второй столбец
         lastColumnIndex = -2; // Предпоследний столбец
     } else if (filePath.contains("233-2 - Grade")) {
-        startLine = 11;
-        endLine = 50;
+        startLine = 17;
+        endLine = 31;
         column2Index = 1; // Второй столбец
         lastColumnIndex = -1; // Последний столбец
     } else if (filePath.contains("С++ 2024")) {
