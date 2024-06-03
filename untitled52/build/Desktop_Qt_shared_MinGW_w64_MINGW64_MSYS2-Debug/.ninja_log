@@ -1,11 +1,20 @@
 # ninja log v6
-5	497	7391276141763856	untitled52_autogen/timestamp	c7fd59a7b2694ca2
-5	497	7391276141763856	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
-5	497	7391276141763856	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
-5	497	7391276141763856	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
-503	1777	7391276142253718	CMakeFiles/untitled52.dir/main.cpp.obj	88d7c543970bc46b
-507	1997	7391276142297860	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
+119	2133	7391277405962777	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
+115	1710	7391277405922777	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
 501	1999	7391276142233716	CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj	eb2944989f0da518
-505	2118	7391276142277869	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
-509	2571	7391276142317862	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
-2571	2747	7391276162938622	untitled52.exe	1d5e482f011fff56
+2133	2403	7391277426102710	untitled52.exe	1d5e482f011fff56
+117	1557	7391277405942781	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
+20	114	7391277404963760	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+20	114	7391277404963760	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
+503	1777	7391276142253718	CMakeFiles/untitled52.dir/main.cpp.obj	88d7c543970bc46b
+20	114	7391277404963760	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+20	114	7391277404963760	untitled52_autogen/timestamp	c7fd59a7b2694ca2
+5	301	7391278923457551	build.ninja	4d14094195006e79
+20	118	7391278924110958	untitled52_autogen/timestamp	c7fd59a7b2694ca2
+20	118	7391278924110958	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+20	118	7391278924110958	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
+20	118	7391278924110958	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+121	1485	7391278925122502	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
+119	1637	7391278925102499	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
+123	2004	7391278925142497	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
+2005	2280	7391278943953488	untitled52.exe	1d5e482f011fff56
