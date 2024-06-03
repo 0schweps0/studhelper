@@ -12,6 +12,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
+configure_file("${CMAKE_SOURCE_DIR}/cvsinfo/233-2 - Grade.csv" "${CMAKE_BINARY_DIR}/233-2 - Grade.csv" COPYONLY)
+configure_file("${CMAKE_SOURCE_DIR}/cvsinfo/LAaG_g233 - Main_Grades.csv" "${CMAKE_BINARY_DIR}/LAaG_g233 - Main_Grades.csv" COPYONLY)
+configure_file("${CMAKE_SOURCE_DIR}/cvsinfo/С++ 2024 grades - All.csv" "${CMAKE_BINARY_DIR}/C++ 2024 grades - All.csv" COPYONLY)
+
+
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
