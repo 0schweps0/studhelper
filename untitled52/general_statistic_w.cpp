@@ -3,6 +3,8 @@
 #include <QFile>
 #include <QTextStream>
 #include <QFont>
+#include <QDebug>
+#include <QFileInfo>
 
 general_statistic_w::general_statistic_w(QWidget *parent)
     : QDialog(parent)
@@ -14,13 +16,10 @@ general_statistic_w::general_statistic_w(QWidget *parent)
     font.setPointSize(12); // Задайте нужный размер шрифта для текстового браузера
     ui->textBrowser->setFont(font);
 
-    QFont comboBoxFont = ui->comboBox->font();
-    comboBoxFont.setPointSize(12); // Задайте нужный размер шрифта для комбо-бокса
-    ui->comboBox->setFont(comboBoxFont);
-
     // Add paths to CSV files in ComboBox
-    ui->comboBox->addItem("English", "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/cvsinfo/233-2 - Grade.csv"); // Замена "Linear Algebra" на "English"
-    ui->comboBox->addItem("LAag", "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/cvsinfo/LAaG_g233 - Main_Grades.csv"); // Замена "Линейная алгебра" на "LAag"
+    ui->comboBox->addItem("English", "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/cvsinfo/233-2 - Grade.csv");
+    ui->comboBox->addItem("LAaG", "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/cvsinfo/LAaG_g233 - Main_Grades.csv");
+    ui->comboBox->addItem("C++", "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/cvsinfo/С++ 2024 grades - All.csv");
 
     // Connect comboBox signal to the slot
     connect(ui->comboBox, SIGNAL(currentIndexChanged(int)), this, SLOT(updateData()));
@@ -37,39 +36,64 @@ general_statistic_w::~general_statistic_w()
 void general_statistic_w::updateData()
 {
     QString filePath = ui->comboBox->currentData().toString();
-    loadDataFromFile(filePath);
+    qDebug() << "Selected file path: " << filePath;
+
+    // Check if file exists
+    QFileInfo checkFile(filePath);
+    if (!checkFile.exists() || !checkFile.isFile()) {
+        qDebug() << "File does not exist: " << filePath;
+        return;
+    }
+
+    int startLine = 0;
+    int endLine = 0;
+    int column2Index = 1;
+    int lastColumnIndex = -1;
+
+    if (filePath.contains("LAaG")) {
+        startLine = 3;
+        endLine = 28;
+        column2Index = 1; // Второй столбец
+        lastColumnIndex = -2; // Предпоследний столбец
+    } else if (filePath.contains("233-2 - Grade")) {
+        startLine = 11;
+        endLine = 50;
+        column2Index = 1; // Второй столбец
+        lastColumnIndex = -1; // Последний столбец
+    } else if (filePath.contains("С++ 2024")) {
+        startLine = 57;
+        endLine = 80;
+        column2Index = 0; // Второй столбец
+        lastColumnIndex = 8; // Последний столбец
+    }
+
+    loadDataFromFile(filePath, startLine, endLine, column2Index, lastColumnIndex);
 }
 
-void general_statistic_w::loadDataFromFile(const QString &filePath)
+void general_statistic_w::loadDataFromFile(const QString &filePath, int startLine, int endLine, int column2Index, int lastColumnIndex)
 {
     QFile file(filePath);
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        qDebug() << "Could not open file: " << filePath;
         return;
     }
+
+    qDebug() << "Reading file: " << filePath;
 
     QTextStream in(&file);
     int lineCount = 0;
     QString html = "<html><body><table border='1' cellspacing='0' cellpadding='4' style='border-collapse: collapse;'>";
 
-    // Determine the range based on the file path
-    int startLine = 0;
-    int endLine = 0;
-    if (filePath.contains("Grade.csv")) {
-        startLine = 17;
-        endLine = 29;
-    } else if (filePath.contains("Main_Grades.csv")) {
-        startLine = 3;
-        endLine = 24;
-    }
-
     while (!in.atEnd()) {
         QString line = in.readLine();
         lineCount++;
+        qDebug() << "Line" << lineCount;
         if (lineCount >= startLine && lineCount <= endLine) {
-            QStringList fields = line.split(",");
-            if (fields.size() >= 2) {
-                QString column2 = fields.at(1); // Второй столбец
-                QString lastColumn = fields.last(); // Последний столбец
+            QStringList fields = line.split(","); // Разбиваем строку по запятой
+            qDebug() << "Processing line: " << line;
+            if (fields.size() >= qMax(column2Index, lastColumnIndex) + 1) {
+                QString column2 = fields.at(column2Index);
+                QString lastColumn = fields.at(lastColumnIndex >= 0 ? lastColumnIndex : fields.size() + lastColumnIndex);
 
                 // Добавляем данные в HTML таблицу
                 html += "<tr><td style='padding: 5px; text-align: left;'>" + column2 + "</td><td style='padding: 5px; text-align: left;'>" + lastColumn + "</td></tr>";
@@ -78,6 +102,8 @@ void general_statistic_w::loadDataFromFile(const QString &filePath)
     }
     html += "</table></body></html>";
     ui->textBrowser->setHtml(html);
+
+    qDebug() << "Finished reading file: " << filePath;
 
     file.close();
 }
