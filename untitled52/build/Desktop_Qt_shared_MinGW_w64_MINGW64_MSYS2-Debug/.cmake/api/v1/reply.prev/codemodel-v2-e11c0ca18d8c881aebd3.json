@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-27019c7197319d344748.json",
+					"jsonFile" : "directory-.-Debug-0ed28964697c847a9bfd.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "untitled52::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled52-Debug-76a12d21a211dc95b088.json",
+					"jsonFile" : "target-untitled52-Debug-a5838ff465e9798aa1ea.json",
 					"name" : "untitled52",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
-		"source" : "D:/github/studhelper/untitled52"
+		"build" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
+		"source" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52"
 	},
 	"version" : 
 	{
