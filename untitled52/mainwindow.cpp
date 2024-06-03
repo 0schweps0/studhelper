@@ -17,7 +17,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_window_data_b_clicked()
 {
-    hide();
+    // hide();
     window_2 = new window_data(this);
     window_2-> show();
 }
@@ -31,7 +31,7 @@ void MainWindow::on_pushButton_2_clicked()
 
 void MainWindow::on_pushButton_3_clicked()
 {
-    hide();
+    // hide();
     window_3 = new general_statistic_w(this);
     window_3-> show();
 }
