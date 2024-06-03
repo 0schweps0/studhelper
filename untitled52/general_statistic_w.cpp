@@ -16,10 +16,18 @@ general_statistic_w::general_statistic_w(QWidget *parent)
     font.setPointSize(12); // Задайте нужный размер шрифта для текстового браузера
     ui->textBrowser->setFont(font);
 
+    QString cvsinfoPath = QCoreApplication::instance()->property("CVSINFO_PATH").toString();
+
     // Add paths to CSV files in ComboBox
+<<<<<<< HEAD:general_statistic_w.cpp
     ui->comboBox->addItem("English", "233-2 - Grade.csv");
     ui->comboBox->addItem("LAaG", "LAaG_g233 - Main_Grades.csv");
     ui->comboBox->addItem("C++", "С++ 2024 grades - All.csv");
+=======
+    ui->comboBox->addItem("English", "untitled52/cvsinfo/233-2 - Grade.csv");
+    ui->comboBox->addItem("LAaG", "untitled52/cvsinfo/LAaG_g233 - Main_Grades.csv");
+    ui->comboBox->addItem("C++", "untitled52/cvsinfo/С++ 2024 grades - All.csv");
+>>>>>>> parent of 5fe2493 (333):untitled52/general_statistic_w.cpp
 
     // Connect comboBox signal to the slot
     connect(ui->comboBox, SIGNAL(currentIndexChanged(int)), this, SLOT(updateData()));
