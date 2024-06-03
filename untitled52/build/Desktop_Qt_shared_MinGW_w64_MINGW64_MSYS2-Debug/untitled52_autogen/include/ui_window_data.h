@@ -15,6 +15,8 @@
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QVBoxLayout>
 
 QT_BEGIN_NAMESPACE
@@ -30,15 +32,18 @@ public:
     QLineEdit *lineEdit_5;
     QLabel *label_6;
     QLineEdit *lineEdit_6;
+    QSpacerItem *verticalSpacer;
+    QPushButton *pushButton;
 
     void setupUi(QDialog *window_data)
     {
         if (window_data->objectName().isEmpty())
             window_data->setObjectName("window_data");
         window_data->resize(896, 778);
+        window_data->setStyleSheet(QString::fromUtf8("border-bottom-color: rgb(255, 255, 255);"));
         groupBox_2 = new QGroupBox(window_data);
         groupBox_2->setObjectName("groupBox_2");
-        groupBox_2->setGeometry(QRect(20, 10, 281, 321));
+        groupBox_2->setGeometry(QRect(20, 10, 281, 241));
         verticalLayout = new QVBoxLayout(groupBox_2);
         verticalLayout->setObjectName("verticalLayout");
         label_4 = new QLabel(groupBox_2);
@@ -71,6 +76,15 @@ public:
 
         verticalLayout->addWidget(lineEdit_6);
 
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+
+        verticalLayout->addItem(verticalSpacer);
+
+        pushButton = new QPushButton(groupBox_2);
+        pushButton->setObjectName("pushButton");
+
+        verticalLayout->addWidget(pushButton);
+
 
         retranslateUi(window_data);
 
@@ -84,6 +98,7 @@ public:
         label_4->setText(QCoreApplication::translate("window_data", "Name", nullptr));
         label_5->setText(QCoreApplication::translate("window_data", "Second name", nullptr));
         label_6->setText(QCoreApplication::translate("window_data", "Group", nullptr));
+        pushButton->setText(QCoreApplication::translate("window_data", "Go", nullptr));
     } // retranslateUi
 
 };
