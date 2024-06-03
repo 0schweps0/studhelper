@@ -1,19 +1,21 @@
 # ninja log v6
-54	609	7390773355522261	untitled52_autogen/timestamp	3940733805fe6c8c
-54	609	7390773355522261	untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-5040	11817	7390715387948582	CMakeFiles/untitled52.dir/main.cpp.obj	b557f4311de88ca
-54	609	7390773355522261	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	3940733805fe6c8c
-3602	9666	7390768859995310	CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj	b94f79d6f8c761de
-54	609	7390773355522261	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-611	5660	7390773361082220	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	7639b5ea099a2a22
-5660	6048	7390773411582257	untitled52.exe	34af9ec9e48b4c98
-617	5317	7390773361142252	CMakeFiles/untitled52.dir/window_data.cpp.obj	e40185b1c8129ed0
-623	4995	7390773361202258	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	4df473970c725f8b
-64	437	7390783091863040	untitled52_autogen/timestamp	3940733805fe6c8c
-64	437	7390783091863040	untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-64	437	7390783091863040	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	3940733805fe6c8c
-64	437	7390783091863040	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-453	6425	7390783095743064	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	4df473970c725f8b
-447	6782	7390783095683075	CMakeFiles/untitled52.dir/window_data.cpp.obj	e40185b1c8129ed0
-440	7145	7390783095623070	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	7639b5ea099a2a22
-7145	7674	7390783162663072	untitled52.exe	34af9ec9e48b4c98
+21	126	7391091306889670	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+21	126	7391091306889670	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
+131	1980	7391091307989309	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
+129	1485	7391091307969311	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
+1980	2265	7391091326478433	untitled52.exe	1d5e482f011fff56
+127	1579	7391091307949356	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
+474	1918	7391086798794978	CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj	eb2944989f0da518
+476	1847	7391086798824980	CMakeFiles/untitled52.dir/main.cpp.obj	88d7c543970bc46b
+21	126	7391091306889670	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+21	126	7391091306889670	untitled52_autogen/timestamp	c7fd59a7b2694ca2
+22	453	7391094365436187	untitled52_autogen/timestamp	c7fd59a7b2694ca2
+22	453	7391094365436187	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+22	453	7391094365436187	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
+22	453	7391094365436187	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+455	1780	7391094365923469	CMakeFiles/untitled52.dir/main.cpp.obj	88d7c543970bc46b
+453	1852	7391094365903472	CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj	eb2944989f0da518
+459	1979	7391094365962517	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
+458	2078	7391094365943470	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
+462	2499	7391094365992524	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
+2499	2783	7391094386354832	untitled52.exe	1d5e482f011fff56

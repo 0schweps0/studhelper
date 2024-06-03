@@ -31,6 +31,7 @@ void MainWindow::on_pushButton_2_clicked()
 
 void MainWindow::on_pushButton_3_clicked()
 {
+    hide();
     window_3 = new general_statistic_w(this);
     window_3-> show();
 }
