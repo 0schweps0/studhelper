@@ -1,74 +1,44 @@
-# This file is used to ignore files which are generated
-# ----------------------------------------------------------------------------
-
-*~
-*.autosave
-*.a
-*.core
-*.moc
-*.o
+# Ignoring build artifacts and OS files
 *.obj
-*.orig
-*.rej
-*.so
-*.so.*
-*_pch.h.cpp
-*_resource.rc
-*.qm
-.#*
-*.*#
-core
-!core/
-tags
-.DS_Store
-.directory
-*.debug
-Makefile*
-*.prl
-*.app
-moc_*.cpp
-ui_*.h
-qrc_*.cpp
-Thumbs.db
-*.res
-*.rc
-/.qmake.cache
-/.qmake.stash
-
-# qtcreator generated files
-*.pro.user*
-CMakeLists.txt.user*
-
-# xemacs temporary files
-*.flc
-
-# Vim temporary files
-.*.swp
-
-# Visual Studio generated files
-*.ib_pdb_index
-*.idb
-*.ilk
-*.pdb
-*.sln
-*.suo
-*.vcproj
-*vcproj.*.*.user
-*.ncb
-*.sdf
-*.opensdf
-*.vcxproj
-*vcxproj.*
-
-# MinGW generated files
-*.Debug
-*.Release
-
-# Python byte code
-*.pyc
-
-# Binaries
-# --------
-*.dll
+*.o
 *.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.out
+*.app
+*.ipa
 
+# Ignore Qt build directories
+build-*/
+
+# Ignore Qt Creator specific files
+*.pro.user
+*.qmake.stash
+*.qmake.cache
+*.pro.user.*
+
+# Ignore CMake specific files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore user-specific settings
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore CSV files in the specified directory
+cvsinfo/*.csv
+
+# Ignore logs
+*.log
+
+# Ignore any other temporary files
+*~
