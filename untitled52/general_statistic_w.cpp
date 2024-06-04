@@ -123,6 +123,9 @@ void general_statistic_w::loadDataFromFile(const QString &filePath, int startLin
                 QString column2 = fields.at(column2Index);
                 QString lastColumn = fields.at(lastColumnIndex >= 0 ? lastColumnIndex : fields.size() + lastColumnIndex);
 
+                column2 = column2.remove('"');
+                lastColumn = lastColumn.remove('"');
+
                 // Добавляем данные в HTML таблицу
                 html += "<tr><td style='padding: 5px; text-align: left;'>" + column2 + "</td><td style='padding: 5px; text-align: left;'>" + lastColumn + "</td></tr>";
             }
