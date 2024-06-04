@@ -97,7 +97,7 @@
 			{
 				"command" : 8,
 				"file" : 4,
-				"line" : 169,
+				"line" : 167,
 				"parent" : 8
 			},
 			{
@@ -330,7 +330,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include"
+					"path" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include"
 				},
 				{
 					"backtrace" : 14,
@@ -375,18 +375,18 @@
 				2,
 				6,
 				9,
-				18
+				16
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "untitled52_autogen::@6890427a1f51a3e7e1df"
+			"id" : "untitled52_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "untitled52_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "untitled52_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "untitled52::@6890427a1f51a3e7e1df",
@@ -501,7 +501,7 @@
 				2,
 				6,
 				9,
-				18
+				16
 			]
 		},
 		{
@@ -511,10 +511,9 @@
 				3,
 				5,
 				8,
+				12,
 				13,
-				14,
-				15,
-				16
+				14
 			]
 		},
 		{
@@ -525,16 +524,15 @@
 				7,
 				10,
 				11,
-				12,
-				17
+				15
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				19,
-				20
+				17,
+				18
 			]
 		}
 	],
@@ -607,11 +605,6 @@
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 4,
-			"path" : "personal_statistic.ui",
-			"sourceGroupIndex" : 2
-		},
-		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include/ui_mainwindow.h",
@@ -627,12 +620,6 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include/ui_general_statistic_w.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include/ui_personal_statistic.h",
 			"sourceGroupIndex" : 1
 		},
 		{

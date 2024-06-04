@@ -1,18 +1,18 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52",
+	"BUILD_DIR" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52",
 	"CMAKE_EXECUTABLE" : "C:/msys64/mingw64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/CMakeLists.txt",
-		"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake",
-		"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake",
+		"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/CMakeLists.txt",
+		"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake",
+		"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
+		"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -25,7 +25,7 @@
 		"C:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake",
-		"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake",
+		"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -242,36 +242,42 @@
 		"C:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"C:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/GNUInstallDirs.cmake",
-		"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/resourse.qrc"
+		"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/resourse.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52",
+	"CMAKE_SOURCE_DIR" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/deps",
+	"DEP_FILE" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "untitled52_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/general_statistic_w.h",
+			"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/general_statistic_w.h",
 			"MU",
 			"EWIEGA46WW/moc_general_statistic_w.cpp",
 			null
 		],
 		[
-			"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/mainwindow.h",
+			"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/window_data.h",
+			"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/persona.h",
+			"MU",
+			"EWIEGA46WW/moc_persona.cpp",
+			null
+		],
+		[
+			"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/window_data.h",
 			"MU",
 			"EWIEGA46WW/moc_window_data.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -329,36 +335,41 @@
 		"-c",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/untitled52_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/untitled52_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/untitled52_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/untitled52_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/general_statistic_w.cpp",
+			"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/general_statistic_w.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/main.cpp",
+			"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/mainwindow.cpp",
+			"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/mainwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/window_data.cpp",
+			"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/persona.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/window_data.cpp",
 			"MU",
 			null
 		]

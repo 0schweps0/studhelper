@@ -2,6 +2,7 @@
 #define WINDOW_DATA_H
 
 #include <QDialog>
+#include "persona.h"
 
 
 namespace Ui {
@@ -26,6 +27,7 @@ private slots:
 
 private:
     Ui::window_data *ui;
+    persona *window_pd;
 };
 
 #endif // WINDOW_DATA_H

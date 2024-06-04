@@ -1,12 +1,12 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'window_data.h'
+** Meta object code from reading C++ file 'persona.h'
 **
 ** Created by: The Qt Meta Object Compiler version 68 (Qt 6.7.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../window_data.h"
+#include "../../../../persona.h"
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>
@@ -16,7 +16,7 @@
 
 #include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'window_data.h' doesn't include <QObject>."
+#error "The header file 'persona.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
 #error "This file was generated using the moc from 6.7.0. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -33,26 +33,25 @@ QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSwindow_dataENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSwindow_dataENDCLASS = QtMocHelpers::stringData(
-    "window_data",
+struct qt_meta_stringdata_CLASSpersonaENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSpersonaENDCLASS = QtMocHelpers::stringData(
+    "persona",
     "firstWindow",
     "",
-    "on_pushButton_clicked",
-    "on_pushButton_2_clicked"
+    "on_pushButton_clicked"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
 #endif // !QT_MOC_HAS_STRINGDATA
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSwindow_dataENDCLASS[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSpersonaENDCLASS[] = {
 
  // content:
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       2,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -60,57 +59,52 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSwindow_dataENDCLASS[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   32,    2, 0x06,    1 /* Public */,
+       1,    0,   26,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    0,   33,    2, 0x08,    2 /* Private */,
-       4,    0,   34,    2, 0x08,    3 /* Private */,
+       3,    0,   27,    2, 0x08,    2 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void,
 
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject window_data::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject persona::staticMetaObject = { {
     QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
-    qt_meta_stringdata_CLASSwindow_dataENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSwindow_dataENDCLASS,
+    qt_meta_stringdata_CLASSpersonaENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSpersonaENDCLASS,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSwindow_dataENDCLASS_t,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSpersonaENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<window_data, std::true_type>,
+        QtPrivate::TypeAndForceComplete<persona, std::true_type>,
         // method 'firstWindow'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_pushButton_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_pushButton_2_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
 
-void window_data::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void persona::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<window_data *>(_o);
+        auto *_t = static_cast<persona *>(_o);
         (void)_t;
         switch (_id) {
         case 0: _t->firstWindow(); break;
         case 1: _t->on_pushButton_clicked(); break;
-        case 2: _t->on_pushButton_2_clicked(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (window_data::*)();
-            if (_t _q_method = &window_data::firstWindow; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            using _t = void (persona::*)();
+            if (_t _q_method = &persona::firstWindow; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
@@ -119,38 +113,38 @@ void window_data::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     (void)_a;
 }
 
-const QMetaObject *window_data::metaObject() const
+const QMetaObject *persona::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *window_data::qt_metacast(const char *_clname)
+void *persona::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSwindow_dataENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSpersonaENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
-int window_data::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int persona::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QDialog::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 2;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 2)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 3;
+        _id -= 2;
     }
     return _id;
 }
 
 // SIGNAL 0
-void window_data::firstWindow()
+void persona::firstWindow()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }

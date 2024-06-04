@@ -26,6 +26,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         window_data.h window_data.cpp window_data.ui
         general_statistic_w.h general_statistic_w.cpp general_statistic_w.ui
         resourse.qrc
+        persona.h persona.cpp persona.ui
 
 
 
