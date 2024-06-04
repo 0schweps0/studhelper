@@ -20,9 +20,13 @@ general_statistic_w::general_statistic_w(QWidget *parent)
 
     // Add paths to CSV files in ComboBox
 
-    ui->comboBox->addItem("English", "233-2 - Grade.csv");
+    ui->comboBox->addItem("English 2nd group", "233-2 - Grade.csv");
     ui->comboBox->addItem("LAaG", "LAaG_g233 - Main_Grades.csv");
     ui->comboBox->addItem("C++", "С++ 2024 grades - All.csv");
+    ui->comboBox->addItem("Calculus", "Calculus DSBA 231-235 - 233 2 semester.csv");
+    ui->comboBox->addItem("Foundation of Russian Statehood", "Scores-DSBA-233-group.csv");
+    ui->comboBox->addItem("English 1st group", "233-1 - Grade.csv");
+    ui->comboBox->addItem("Discrete Math", "DSBA DM 23_24 - Academic Performance - Final grades.csv");
 
 
     // Connect comboBox signal to the slot
@@ -54,7 +58,7 @@ void general_statistic_w::updateData()
     int column2Index = 1;
     int lastColumnIndex = -1;
 
-    if (filePath.contains("LAaG")) {
+    if (filePath.contains("LAaG_g233 - Main_Grades")) {
         startLine = 3;
         endLine = 28;
         column2Index = 1; // Второй столбец
@@ -64,11 +68,31 @@ void general_statistic_w::updateData()
         endLine = 31;
         column2Index = 1; // Второй столбец
         lastColumnIndex = -1; // Последний столбец
-    } else if (filePath.contains("С++ 2024")) {
+    } else if (filePath.contains("С++ 2024 grades - All")) {
         startLine = 57;
         endLine = 80;
         column2Index = 0; // Второй столбец
         lastColumnIndex = 8; // Последний столбец
+    } else if (filePath.contains("Calculus DSBA 231-235 - 233 2 semester")) {
+        startLine = 3;
+        endLine = 28;
+        column2Index = 0; // Второй столбец
+        lastColumnIndex = 9; // Последний столбец
+    } else if (filePath.contains("Scores-DSBA-233-group")) {
+        startLine = 5;
+        endLine = 40;
+        column2Index = 1; // Второй столбец
+        lastColumnIndex = -1; // Последний столбец
+    } else if (filePath.contains("233-1 - Grade")) {
+        startLine = 17;
+        endLine = 31;
+        column2Index = 1; // Второй столбец
+        lastColumnIndex = -1; // Последний столбец
+    } else if (filePath.contains("DSBA DM 23_24 - Academic Performance - Final grades")) {
+        startLine = 62;
+        endLine = 88;
+        column2Index = 1; // Второй столбец
+        lastColumnIndex = -4; // Последний столбец
     }
 
     loadDataFromFile(filePath, startLine, endLine, column2Index, lastColumnIndex);

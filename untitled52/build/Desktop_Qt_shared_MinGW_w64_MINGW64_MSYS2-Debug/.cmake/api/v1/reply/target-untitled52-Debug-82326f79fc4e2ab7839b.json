@@ -97,7 +97,7 @@
 			{
 				"command" : 8,
 				"file" : 4,
-				"line" : 167,
+				"line" : 169,
 				"parent" : 8
 			},
 			{
@@ -330,7 +330,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include"
+					"path" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include"
 				},
 				{
 					"backtrace" : 14,
@@ -382,11 +382,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "untitled52_autogen::@6890427a1f51a3e7e1df"
+			"id" : "untitled52_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "untitled52_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "untitled52_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "untitled52::@6890427a1f51a3e7e1df",

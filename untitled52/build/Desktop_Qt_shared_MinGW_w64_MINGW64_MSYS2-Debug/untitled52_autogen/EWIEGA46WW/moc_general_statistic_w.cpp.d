@@ -1,5 +1,5 @@
-C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/EWIEGA46WW/moc_general_statistic_w.cpp: C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/general_statistic_w.h \
-  C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/moc_predefs.h \
+C:/Users/EDELWEISS\ PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/EWIEGA46WW/moc_general_statistic_w.cpp: C:/Users/EDELWEISS\ PC/Documents/GitHub/studhelper/untitled52/general_statistic_w.h \
+  C:/Users/EDELWEISS\ PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/moc_predefs.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
