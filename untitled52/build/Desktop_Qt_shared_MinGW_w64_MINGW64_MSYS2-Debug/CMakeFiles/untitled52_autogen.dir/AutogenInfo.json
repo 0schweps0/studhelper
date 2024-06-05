@@ -242,8 +242,7 @@
 		"C:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"C:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/GNUInstallDirs.cmake",
-		"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/resourse.qrc",
-		"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/csvinfo.qrc"
+		"C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/resourse.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52",
 	"CROSS_CONFIG" : false,

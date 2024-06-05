@@ -1006,9 +1006,6 @@
 		},
 		{
 			"path" : "resourse.qrc"
-		},
-		{
-			"path" : "csvinfo.qrc"
 		}
 	],
 	"kind" : "cmakeFiles",

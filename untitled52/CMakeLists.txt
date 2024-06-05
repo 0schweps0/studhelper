@@ -28,7 +28,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         resourse.qrc
         persona.h persona.cpp persona.ui
         globalconstants.h globalconstants.cpp
-        csvinfo.qrc
+
 
 
 
