@@ -1,38 +1,14 @@
 # ninja log v6
-655	10540	7393262251578352	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	4df473970c725f8b
-662	10324	7393262251638350	CMakeFiles/untitled52.dir/persona.cpp.obj	ef0a50e707b1429a
-715	849	7393256288042779	untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp	b7632d11623c64c8
-10366	14410	7393256384549239	CMakeFiles/untitled52.dir/globalconstants.cpp.obj	22afcf64b0e04528
-82	641	7393262245838327	untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-862	10366	7393256289519226	CMakeFiles/untitled52.dir/main.cpp.obj	b557f4311de88ca
-643	9200	7393262251448532	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	7639b5ea099a2a22
-82	641	7393262245838327	untitled52_autogen/timestamp	3940733805fe6c8c
-11216	11962	7393256393049223	CMakeFiles/untitled52.dir/untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp.obj	a4207541611c4892
-649	9193	7393262251508348	CMakeFiles/untitled52.dir/window_data.cpp.obj	e40185b1c8129ed0
-10541	11095	7393262350429424	untitled52.exe	3f0ac2e01d605e1a
-4	301	7393268675930683	build.ninja	4d14094195006e79
-849	12292	7393256289383110	CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj	b94f79d6f8c761de
-21	160	7393268800343130	untitled52_autogen/timestamp	c7fd59a7b2694ca2
-21	160	7393268800343130	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
-21	160	7393268800343130	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
-21	160	7393268800343130	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
-160	187	7393268801731845	untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp	9d24efbafe6d23b9
-160	187	7393268801731845	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp	9d24efbafe6d23b9
-205	458	7393268802172630	CMakeFiles/untitled52.dir/untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp.obj	2a156ec0cbffd48b
-201	1248	7393268802142628	CMakeFiles/untitled52.dir/globalconstants.cpp.obj	d4d51715de4a1d84
-190	1776	7393268802022633	CMakeFiles/untitled52.dir/main.cpp.obj	88d7c543970bc46b
 187	2007	7393268802002630	CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj	eb2944989f0da518
-192	2186	7393268802042622	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
-194	2189	7393268802062637	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
-198	2552	7393268802112626	CMakeFiles/untitled52.dir/persona.cpp.obj	1f89c191ff2eb731
-196	2614	7393268802092625	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
-2614	2896	7393268826269891	untitled52.exe	603d3bfe162fe89a
-11	124	7393275657523190	untitled52_autogen/timestamp	c7fd59a7b2694ca2
-11	124	7393275657523190	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
-11	124	7393275657523190	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
-11	124	7393275657523190	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+4	301	7393285512310281	build.ninja	4d14094195006e79
+2199	2441	7393275679404151	untitled52.exe	603d3bfe162fe89a
 127	1718	7393275658686928	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
+205	458	7393268802172630	CMakeFiles/untitled52.dir/untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp.obj	2a156ec0cbffd48b
+11	124	7393275657523190	untitled52_autogen/timestamp	c7fd59a7b2694ca2
 124	1771	7393275658662617	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
+190	1776	7393268802022633	CMakeFiles/untitled52.dir/main.cpp.obj	88d7c543970bc46b
+11	124	7393275657523190	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+160	187	7393268801731845	untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp	9d24efbafe6d23b9
+201	1248	7393268802142628	CMakeFiles/untitled52.dir/globalconstants.cpp.obj	d4d51715de4a1d84
 132	2166	7393275658736885	CMakeFiles/untitled52.dir/persona.cpp.obj	1f89c191ff2eb731
 129	2199	7393275658706910	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
-2199	2441	7393275679404151	untitled52.exe	603d3bfe162fe89a

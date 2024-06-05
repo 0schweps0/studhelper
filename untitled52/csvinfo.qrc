@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/csv"/>
+    <qresource prefix="/">
+        <file>csvpapka/233-1 - Grade.csv</file>
+        <file>csvpapka/233-2 - Grade.csv</file>
+        <file>csvpapka/Calculus DSBA 231-235 - 233 2 semester.csv</file>
+        <file>csvpapka/DSBA DM 23_24 - Academic Performance - Final grades.csv</file>
+        <file>csvpapka/LAaG_g233 - Main_Grades.csv</file>
+        <file>csvpapka/Scores-DSBA-233-group.csv</file>
+        <file>csvpapka/С++ 2024 grades - All.csv</file>
+    </qresource>
+</RCC>

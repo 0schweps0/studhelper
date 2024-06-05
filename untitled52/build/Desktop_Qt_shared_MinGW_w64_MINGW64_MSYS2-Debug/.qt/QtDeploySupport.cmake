@@ -34,7 +34,7 @@ endif()
 set(__QT_DEPLOY_SYSTEM_NAME "Windows")
 set(__QT_DEPLOY_IS_SHARED_LIBS_BUILD "ON")
 set(__QT_DEPLOY_TOOL "C:/msys64/mingw64/bin/windeployqt-qt6.exe")
-set(__QT_DEPLOY_IMPL_DIR "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qt")
+set(__QT_DEPLOY_IMPL_DIR "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qt")
 set(__QT_DEPLOY_VERBOSE "")
 set(__QT_CMAKE_EXPORT_NAMESPACE "Qt6")
 set(__QT_DEPLOY_GENERATOR_IS_MULTI_CONFIG "0")
@@ -48,7 +48,7 @@ set(__QT_DEPLOY_QT_INSTALL_DATA "share/qt6")
 set(__QT_DEPLOY_QT_INSTALL_LIBEXECS "share/qt6/bin")
 set(__QT_DEPLOY_QT_INSTALL_PLUGINS "share/qt6/plugins")
 set(__QT_DEPLOY_QT_INSTALL_TRANSLATIONS "share/qt6/translations")
-set(__QT_DEPLOY_TARGET_QT_PATHS_PATH "C:/msys64/mingw64/bin/qtpaths6.exe")
+set(__QT_DEPLOY_TARGET_QT_PATHS_PATH "C:/msys64/mingw64/bin/qtpaths.exe")
 set(__QT_DEPLOY_PLUGINS "")
 set(__QT_DEPLOY_MUST_ADJUST_PLUGINS_RPATH "")
 set(__QT_DEPLOY_USE_PATCHELF "")
@@ -58,7 +58,7 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qt/QtDeployTargets.cmake"
+    "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qt/QtDeployTargets.cmake"
     "C:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
