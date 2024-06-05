@@ -4,7 +4,6 @@
 #include <QDialog>
 #include "persona.h"
 
-
 namespace Ui {
 class window_data;
 }
@@ -19,6 +18,7 @@ public:
 
 signals:
     void firstWindow();
+
 
 private slots:
     void on_pushButton_clicked();

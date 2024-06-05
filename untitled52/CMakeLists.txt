@@ -27,6 +27,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         general_statistic_w.h general_statistic_w.cpp general_statistic_w.ui
         resourse.qrc
         persona.h persona.cpp persona.ui
+        globalconstants.h globalconstants.cpp
 
 
 

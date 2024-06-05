@@ -1,42 +1,53 @@
 # ninja log v6
-2340	11676	7392152099245191	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	7639b5ea099a2a22
-2237	2329	7392152098215159	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp	b7632d11623c64c8
-2352	13361	7392152099365187	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	4df473970c725f8b
-4	301	7392153121599136	build.ninja	4d14094195006e79
-52	2235	7392152096264890	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-2329	11199	7392152099135155	CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj	b94f79d6f8c761de
-52	2235	7392152096264890	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	3940733805fe6c8c
-2346	11344	7392152099305174	CMakeFiles/untitled52.dir/window_data.cpp.obj	e40185b1c8129ed0
-13362	13999	7392152209459110	untitled52.exe	6878fbdff66a1207
-2358	11482	7392152099425163	CMakeFiles/untitled52.dir/untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp.obj	a4207541611c4892
-52	2235	7392152096264890	untitled52_autogen/timestamp	3940733805fe6c8c
-2334	10333	7392152099185169	CMakeFiles/untitled52.dir/main.cpp.obj	b557f4311de88ca
-52	2235	7392152096264890	untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-2237	2329	7392152098215159	untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp	b7632d11623c64c8
-68	2979	7392157196346644	untitled52_autogen/timestamp	3940733805fe6c8c
-68	2979	7392157196346644	untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-68	2979	7392157196346644	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	3940733805fe6c8c
-68	2979	7392157196346644	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-2987	10396	7392157197816664	CMakeFiles/untitled52.dir/main.cpp.obj	b557f4311de88ca
-2981	11010	7392157197746636	CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj	b94f79d6f8c761de
-3000	11233	7392157197936669	CMakeFiles/untitled52.dir/window_data.cpp.obj	e40185b1c8129ed0
-2993	11429	7392157197876649	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	7639b5ea099a2a22
-3007	12867	7392157198006669	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	4df473970c725f8b
-59	425	7392157366098107	untitled52_autogen/timestamp	3940733805fe6c8c
-59	425	7392157366098107	untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-59	425	7392157366098107	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	3940733805fe6c8c
-59	425	7392157366098107	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-446	5398	7392157369967144	CMakeFiles/untitled52.dir/persona.cpp.obj	ef0a50e707b1429a
-432	6273	7392157369837119	CMakeFiles/untitled52.dir/window_data.cpp.obj	e40185b1c8129ed0
-426	6320	7392157369777147	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	7639b5ea099a2a22
-438	7703	7392157369897132	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	4df473970c725f8b
-7703	8261	7392157442547412	untitled52.exe	a8d032d1dcc3c661
-67	517	7392158366637776	untitled52_autogen/timestamp	3940733805fe6c8c
-67	517	7392158366637776	untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-67	517	7392158366637776	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	3940733805fe6c8c
-67	517	7392158366637776	C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	3940733805fe6c8c
-539	5747	7392158371357800	CMakeFiles/untitled52.dir/persona.cpp.obj	ef0a50e707b1429a
-525	6397	7392158371217499	CMakeFiles/untitled52.dir/window_data.cpp.obj	e40185b1c8129ed0
-519	6520	7392158371147481	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	7639b5ea099a2a22
-532	7836	7392158371287781	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	4df473970c725f8b
-7836	8350	7392158444321924	untitled52.exe	a8d032d1dcc3c661
+19	127	7392568074229022	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+133	2061	7392568075359011	CMakeFiles/untitled52.dir/persona.cpp.obj	1f89c191ff2eb731
+506	529	7392160353488797	untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp	9d24efbafe6d23b9
+489	1871	7392530880779726	CMakeFiles/untitled52.dir/main.cpp.obj	88d7c543970bc46b
+506	529	7392160353488797	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp	9d24efbafe6d23b9
+127	1762	7392568075309008	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
+19	127	7392568074229022	untitled52_autogen/timestamp	c7fd59a7b2694ca2
+543	782	7392160353851296	CMakeFiles/untitled52.dir/untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp.obj	2a156ec0cbffd48b
+129	1685	7392568075329009	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
+2232	2452	7392568096349007	untitled52.exe	603d3bfe162fe89a
+4	301	7392413272205840	build.ninja	4d14094195006e79
+487	2099	7392530880749731	CMakeFiles/untitled52.dir/untitled52_autogen/mocs_compilation.cpp.obj	eb2944989f0da518
+19	127	7392568074229022	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
+141	1017	7392428029619990	CMakeFiles/untitled52.dir/globalconstants.cpp.obj	d4d51715de4a1d84
+19	127	7392568074229022	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+131	2232	7392568075339011	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
+20	125	7392568594847590	untitled52_autogen/timestamp	c7fd59a7b2694ca2
+20	125	7392568594847590	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+20	125	7392568594847590	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
+20	125	7392568594847590	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+128	1730	7392568595927596	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
+126	1800	7392568595897599	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
+132	2079	7392568595957599	CMakeFiles/untitled52.dir/persona.cpp.obj	1f89c191ff2eb731
+130	2186	7392568595937597	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
+2186	2389	7392568616502654	untitled52.exe	603d3bfe162fe89a
+20	125	7392570816533121	untitled52_autogen/timestamp	c7fd59a7b2694ca2
+20	125	7392570816533121	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+20	125	7392570816533121	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
+20	125	7392570816533121	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+127	1649	7392570817603121	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
+125	1719	7392570817583130	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
+132	2050	7392570817643128	CMakeFiles/untitled52.dir/persona.cpp.obj	1f89c191ff2eb731
+129	2138	7392570817623124	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
+2138	2410	7392570837718198	untitled52.exe	603d3bfe162fe89a
+19	125	7392572460925342	untitled52_autogen/timestamp	c7fd59a7b2694ca2
+19	125	7392572460925342	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+19	125	7392572460925342	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
+19	125	7392572460925342	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+127	1686	7392572462005347	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
+125	1747	7392572461985346	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
+132	2050	7392572462055356	CMakeFiles/untitled52.dir/persona.cpp.obj	1f89c191ff2eb731
+130	2112	7392572462025342	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
+2112	2365	7392572481850880	untitled52.exe	603d3bfe162fe89a
+10	117	7392573959437924	untitled52_autogen/timestamp	c7fd59a7b2694ca2
+10	117	7392573959437924	untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+10	117	7392573959437924	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp	c7fd59a7b2694ca2
+10	117	7392573959437924	C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/mocs_compilation.cpp	c7fd59a7b2694ca2
+119	1664	7392573960537924	CMakeFiles/untitled52.dir/window_data.cpp.obj	cd1b2d20a8ca278d
+117	1722	7392573960507923	CMakeFiles/untitled52.dir/mainwindow.cpp.obj	b8c81e35f25cb6e1
+123	2057	7392573960567921	CMakeFiles/untitled52.dir/persona.cpp.obj	1f89c191ff2eb731
+121	2119	7392573960547922	CMakeFiles/untitled52.dir/general_statistic_w.cpp.obj	605170fac6c4bcae
+2119	2398	7392573980527914	untitled52.exe	603d3bfe162fe89a

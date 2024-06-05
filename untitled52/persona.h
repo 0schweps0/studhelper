@@ -15,6 +15,10 @@ public:
     explicit persona(QWidget *parent = 0);
     ~persona();
 
+
+protected:
+    void showEvent(QShowEvent *event) override;
+
 signals:
     void firstWindow();
 
