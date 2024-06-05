@@ -106,7 +106,7 @@ void persona::showEvent(QShowEvent *event)
 
     // Проверяем, было ли найдено совпадение, и меняем текст label при необходимости
     if (!foundMatch) {
-        ui->label->setText(name + " " + secondName + " не обнаружены. Попробуйте ввести другие значения.");
+        ui->label->setText(name + " " + secondName + " не обнаружен. Попробуйте ввести другие значения.");
     }
 
     ui->textBrowser->setAlignment(Qt::AlignLeft); // Выравнивание по левому краю
