@@ -11,7 +11,6 @@ window_data::window_data(QWidget *parent)
     ui->setupUi(this);
     window_pd = new persona();
     connect(window_pd, &persona::firstWindow, this, &window_data::show);
-
 }
 
 window_data::~window_data()
@@ -21,20 +20,30 @@ window_data::~window_data()
 
 void window_data::on_pushButton_clicked()
 {
+    QString name = ui->lineEdit_4->text();
+    QString secondname = ui->lineEdit_5->text();
+    QString group = ui->lineEdit_6->text();
 
-    setName(ui->lineEdit_4->text());
-    setSecondName(ui->lineEdit_5->text());
-    setGroup(ui->lineEdit_6->text());
+    if (name.isEmpty()) {
+        name = " ";
+    }
+    if (secondname.isEmpty()) {
+        secondname = " ";
+    }
+    if (group.isEmpty()) {
+        group = " ";
+    }
 
-    window_pd -> show();
+    setName(name);
+    setSecondName(secondname);
+    setGroup(group);
+
+    window_pd->show();
     this->close();
-
 }
-
 
 void window_data::on_pushButton_2_clicked()
 {
     this->close();
     emit firstWindow();
 }
-

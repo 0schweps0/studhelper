@@ -25,6 +25,13 @@ persona::~persona()
 void persona::showEvent(QShowEvent *event)
 {
     QDialog::showEvent(event);  // Не забудьте вызвать базовую реализацию
+
+    // Проверка на пустые переменные или пробелы
+    if (name.trimmed().isEmpty() || secondName.trimmed().isEmpty() || group.trimmed().isEmpty()) {
+        ui->label->setText("Похоже, вы ввели не все значения. Попробуйте снова.");
+        return;
+    }
+
     name = name.at(0).toUpper() + name.mid(1).toLower();
     secondName = secondName.at(0).toUpper() + secondName.mid(1).toLower();
     ui->label->setText(name + " " + secondName + "      группа:  " + group);  // Установите текст для QLabel при открытии окна
@@ -112,6 +119,7 @@ void persona::showEvent(QShowEvent *event)
     ui->textBrowser->setAlignment(Qt::AlignLeft); // Выравнивание по левому краю
     ui->textBrowser_2->setAlignment(Qt::AlignLeft); // Выравнивание по правому краю
 }
+
 
 void persona::on_pushButton_clicked()
 {
