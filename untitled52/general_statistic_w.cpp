@@ -20,7 +20,7 @@ general_statistic_w::general_statistic_w(QWidget *parent)
 
     // Add paths to CSV files in ComboBox
 
-    ui->comboBox->addItem("English 2nd group", "233-2 - Grade.csv");
+    ui->comboBox->addItem("English 2nd group", "../../csvpapka/233-2 - Grade.csv");
     ui->comboBox->addItem("LAaG", "LAaG_g233 - Main_Grades.csv");
     ui->comboBox->addItem("C++", "С++ 2024 grades - All.csv");
     ui->comboBox->addItem("Calculus", "Calculus DSBA 231-235 - 233 2 semester.csv");

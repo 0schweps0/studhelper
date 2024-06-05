@@ -97,7 +97,7 @@
 			{
 				"command" : 8,
 				"file" : 4,
-				"line" : 167,
+				"line" : 169,
 				"parent" : 8
 			},
 			{
@@ -330,7 +330,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include"
+					"path" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include"
 				},
 				{
 					"backtrace" : 14,
@@ -377,8 +377,7 @@
 				9,
 				13,
 				16,
-				23,
-				24
+				22
 			]
 		}
 	],
@@ -506,8 +505,7 @@
 				9,
 				13,
 				16,
-				23,
-				24
+				22
 			]
 		},
 		{
@@ -519,10 +517,10 @@
 				8,
 				12,
 				15,
+				17,
 				18,
 				19,
-				20,
-				21
+				20
 			]
 		},
 		{
@@ -534,17 +532,15 @@
 				10,
 				11,
 				14,
-				17,
-				22
+				21
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				25,
-				26,
-				27
+				23,
+				24
 			]
 		}
 	],
@@ -644,11 +640,6 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
-			"path" : "csvinfo.qrc",
-			"sourceGroupIndex" : 2
-		},
-		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/include/ui_mainwindow.h",
@@ -687,13 +678,6 @@
 		},
 		{
 			"backtrace" : 0,
-			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/EWIEGA46WW/qrc_csvinfo.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/timestamp.rule",
 			"sourceGroupIndex" : 3
@@ -702,12 +686,6 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/EWIEGA46WW/qrc_resourse.cpp.rule",
-			"sourceGroupIndex" : 3
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled52_autogen/EWIEGA46WW/qrc_csvinfo.cpp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],
