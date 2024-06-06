@@ -21,12 +21,12 @@ general_statistic_w::general_statistic_w(QWidget *parent)
     // Add paths to CSV files in ComboBox
 
     ui->comboBox->addItem("English 2nd group", "../../csvpapka/233-2 - Grade.csv");
-    ui->comboBox->addItem("LAaG", "LAaG_g233 - Main_Grades.csv");
-    ui->comboBox->addItem("C++", "С++ 2024 grades - All.csv");
-    ui->comboBox->addItem("Calculus", "Calculus DSBA 231-235 - 233 2 semester.csv");
-    ui->comboBox->addItem("Foundation of Russian Statehood", "Scores-DSBA-233-group.csv");
-    ui->comboBox->addItem("English 1st group", "233-1 - Grade.csv");
-    ui->comboBox->addItem("Discrete Math", "DSBA DM 23_24 - Academic Performance - Final grades.csv");
+    ui->comboBox->addItem("LAaG", "../../csvpapka/LAaG_g233 - Main_Grades.csv");
+    ui->comboBox->addItem("C++", "../../csvpapka/С++ 2024 grades - All.csv");
+    ui->comboBox->addItem("Calculus", "../../csvpapka/Calculus DSBA 231-235 - 233 2 semester.csv");
+    ui->comboBox->addItem("Foundation of Russian Statehood", "../../csvpapka/Scores-DSBA-233-group.csv");
+    ui->comboBox->addItem("English 1st group", "../../csvpapka/233-1 - Grade.csv");
+    ui->comboBox->addItem("Discrete Math", "../../csvpapka/DSBA DM 23_24 - Academic Performance - Final grades.csv");
 
 
     // Connect comboBox signal to the slot

@@ -44,13 +44,13 @@ void persona::showEvent(QShowEvent *event)
 
     // Список файлов и их соответствующих столбцов
     FileColumn files[] = {
-        {"233-2 - Grade.csv", 1, -1},
-        {"LAaG_g233 - Main_Grades.csv", 1, -2},
-        {"С++ 2024 grades - All.csv", 0, 8},
-        {"Calculus DSBA 231-235 - 233 2 semester.csv", 0, 9},
-        {"Scores-DSBA-233-group.csv", 1, -1},
-        {"233-1 - Grade.csv", 1, -1},
-        {"DSBA DM 23_24 - Academic Performance - Final grades.csv", 1, -4}
+        {"../../csvpapka/233-2 - Grade.csv", 1, -1},
+        {"../../csvpapka/LAaG_g233 - Main_Grades.csv", 1, -2},
+        {"../../csvpapka/С++ 2024 grades - All.csv", 0, 8},
+        {"../../csvpapka/Calculus DSBA 231-235 - 233 2 semester.csv", 0, 9},
+        {"../../csvpapka/Scores-DSBA-233-group.csv", 1, -1},
+        {"../../csvpapka/233-1 - Grade.csv", 1, -1},
+        {"../../csvpapka/DSBA DM 23_24 - Academic Performance - Final grades.csv", 1, -4}
     };
 
     // Найдем максимальную длину имени файла
