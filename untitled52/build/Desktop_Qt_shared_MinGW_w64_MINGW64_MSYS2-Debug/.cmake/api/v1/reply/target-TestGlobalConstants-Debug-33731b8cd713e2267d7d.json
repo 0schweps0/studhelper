@@ -24,13 +24,13 @@
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"C:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"C:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
-			"C:/msys64/mingw64/lib/cmake/Qt6/Qt6Config.cmake"
+			"D:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"D:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"D:/msys64/mingw64/lib/cmake/Qt6/Qt6Config.cmake"
 		],
 		"nodes" : 
 		[
@@ -62,7 +62,7 @@
 			{
 				"command" : 4,
 				"file" : 7,
-				"line" : 169,
+				"line" : 167,
 				"parent" : 4
 			},
 			{
@@ -140,11 +140,11 @@
 				},
 				{
 					"backtrace" : 2,
-					"define" : "QT_TESTCASE_BUILDDIR=\"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug\""
+					"define" : "QT_TESTCASE_BUILDDIR=\"D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug\""
 				},
 				{
 					"backtrace" : 2,
-					"define" : "QT_TESTCASE_SOURCEDIR=\"C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52\""
+					"define" : "QT_TESTCASE_SOURCEDIR=\"D:/github/studhelper/untitled52\""
 				},
 				{
 					"backtrace" : 2,
@@ -187,27 +187,27 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/TestGlobalConstants_autogen/include"
+					"path" : "D:/github/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/TestGlobalConstants_autogen/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/msys64/mingw64/include/qt6/QtCore"
+					"path" : "D:/msys64/mingw64/include/qt6/QtCore"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/msys64/mingw64/include/qt6"
+					"path" : "D:/msys64/mingw64/include/qt6"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/msys64/mingw64/share/qt6/mkspecs/win32-g++"
+					"path" : "D:/msys64/mingw64/share/qt6/mkspecs/win32-g++"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/msys64/mingw64/include/qt6/QtTest"
+					"path" : "D:/msys64/mingw64/include/qt6/QtTest"
 				}
 			],
 			"language" : "CXX",
@@ -253,12 +253,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\msys64\\mingw64\\lib\\libQt6Test.dll.a",
+				"fragment" : "D:\\msys64\\mingw64\\lib\\libQt6Test.dll.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\msys64\\mingw64\\lib\\libQt6Core.dll.a",
+				"fragment" : "D:\\msys64\\mingw64\\lib\\libQt6Core.dll.a",
 				"role" : "libraries"
 			},
 			{
