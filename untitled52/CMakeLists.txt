@@ -9,29 +9,25 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets Test)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Test)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
+    window_data.h window_data.cpp window_data.ui
+    general_statistic_w.h general_statistic_w.cpp general_statistic_w.ui
+    resourse.qrc
+    persona.h persona.cpp persona.ui
+    globalconstants.h globalconstants.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(untitled52
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        window_data.h window_data.cpp window_data.ui
-        general_statistic_w.h general_statistic_w.cpp general_statistic_w.ui
-        resourse.qrc
-        persona.h persona.cpp persona.ui
-        globalconstants.h globalconstants.cpp
-
-
-
-
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET untitled52 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -77,3 +73,14 @@ install(TARGETS untitled52
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(untitled52)
 endif()
+
+# Добавление целей для тестов
+add_executable(TestGlobalConstants
+    globalconstants_tests.cpp
+    globalconstants.cpp
+)
+
+target_link_libraries(TestGlobalConstants PRIVATE Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Test)
+
+enable_testing()
+add_test(NAME TestGlobalConstants COMMAND TestGlobalConstants)

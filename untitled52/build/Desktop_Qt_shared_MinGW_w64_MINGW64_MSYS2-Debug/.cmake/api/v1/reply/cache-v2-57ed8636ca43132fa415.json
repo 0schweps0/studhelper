@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug"
+			"value" : "c:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -455,7 +455,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52"
+			"value" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake"
+			"value" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -1926,6 +1926,18 @@
 			"value" : "OFF"
 		},
 		{
+			"name" : "QT_FEATURE_batch_test_support",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: batch_test_support (from target Qt6::Test)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "QT_FEATURE_buttongroup",
 			"properties" : 
 			[
@@ -2754,6 +2766,18 @@
 			"value" : "OFF"
 		},
 		{
+			"name" : "QT_FEATURE_elf_private_full_version",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: elf_private_full_version (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "QT_FEATURE_errormessage",
 			"properties" : 
 			[
@@ -3420,6 +3444,18 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: itemmodel (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_itemmodeltester",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: itemmodeltester (from target Qt6::Test)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -5226,6 +5262,18 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "QT_FEATURE_testlib_selfcover",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: testlib_selfcover (from target Qt6::Test)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "QT_FEATURE_textbrowser",
 			"properties" : 
 			[
@@ -5560,6 +5608,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_valgrind",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: valgrind (from target Qt6::Test)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_validator",
@@ -6006,6 +6066,18 @@
 			"value" : "C:/msys64/mingw64/lib/cmake/Qt6Gui"
 		},
 		{
+			"name" : "Qt6Test_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt6Test."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/msys64/mingw64/lib/cmake/Qt6Test"
+		},
+		{
 			"name" : "Qt6WidgetsTools_DIR",
 			"properties" : 
 			[
@@ -6151,7 +6223,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug"
+			"value" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug"
 		},
 		{
 			"name" : "untitled52_IS_TOP_LEVEL",
@@ -6175,7 +6247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/glebg/OneDrive/Documents/GitHub/studhelper/untitled52"
+			"value" : "C:/Users/EDELWEISS PC/Documents/GitHub/studhelper/untitled52"
 		}
 	],
 	"kind" : "cache",
